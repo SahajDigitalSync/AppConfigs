@@ -11,6 +11,7 @@ jobs:
   purge:
     runs-on: ubuntu-latest
     steps:
-      - name: Purge Connect_3D Cache
+      - name: Purge Caches
         run: |
           curl -i https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/configs/connect_3d.json
+          curl -i https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/configs/doctor_docs.json
