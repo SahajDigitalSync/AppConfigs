@@ -219,29 +219,55 @@
 
             <section id="data-types">
                 <h2>Types of Data Collected</h2>
+                <p>We believe in total transparency regarding your data. We categorize information into three specific
+                    groups to help you understand our processing activities:</p>
 
-                <h3>Personal Information</h3>
-                <p>We do not require you to provide personal identifiers (like your real name or physical address) to
-                    use basic game features. However, if you create an account, register for a tournament, or contact
-                    support, we may collect:</p>
-                <ul>
-                    <li><span class="highlight">Account Info:</span> Username, email address, and profile picture.</li>
-                    <li><span class="highlight">Support Interactions:</span> Name and email provided during support
-                        tickets.</li>
-                    <li><span class="highlight">Social Login:</span> If you sign in via Google or Apple, we receive an
-                        anonymized identifier and associated email.</li>
-                </ul>
-
-                <h3>Non-Personal & Usage Data</h3>
-                <p>We automatically collect technical data to improve app performance and experience:</p>
-                <ul>
-                    <li><span class="highlight">Device IDs:</span> Advertising IDs (IDFA/AAID), device model, and OS
-                        version.</li>
-                    <li><span class="highlight">Gameplay Stats:</span> Level progress, achievements, and session
-                        duration.</li>
-                    <li><span class="highlight">Network Info:</span> IP address (anonymized) and general location
-                        (Country/City level).</li>
-                </ul>
+                <table
+                    style="width: 100%; border-collapse: collapse; margin: 25px 0; border: 1px solid var(--border); font-size: 0.95rem;">
+                    <thead>
+                        <tr style="background: rgba(0, 242, 255, 0.1); color: var(--primary);">
+                            <th style="padding: 15px; text-align: left; border: 1px solid var(--border);">Data Category
+                            </th>
+                            <th style="padding: 15px; text-align: left; border: 1px solid var(--border);">Examples</th>
+                            <th style="padding: 15px; text-align: left; border: 1px solid var(--border);">Purpose &
+                                Legal Basis</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 15px; border: 1px solid var(--border);">
+                                <span class="highlight">Personal Identifiers</span>
+                            </td>
+                            <td style="padding: 15px; border: 1px solid var(--border);">Advertising ID (AAID/IDFA), IP
+                                Address</td>
+                            <td style="padding: 15px; border: 1px solid var(--border);">
+                                <strong>Purpose:</strong> Ad Personalization & Fraud Prevention<br>
+                                <strong>Basis:</strong> Legitimate Interest (GDPR Art. 6(1)(f))
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px; border: 1px solid var(--border);">
+                                <span class="highlight">Gameplay Data</span>
+                            </td>
+                            <td style="padding: 15px; border: 1px solid var(--border);">Level Progress, Achievements,
+                                Sessions</td>
+                            <td style="padding: 15px; border: 1px solid var(--border);">
+                                <strong>Purpose:</strong> Cloud Sync & Game Optimization<br>
+                                <strong>Basis:</strong> Contractual Necessity (GDPR Art. 6(1)(b))
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 15px; border: 1px solid var(--border);">
+                                <span class="highlight">Contact Info</span>
+                            </td>
+                            <td style="padding: 15px; border: 1px solid var(--border);">Username, Email Address</td>
+                            <td style="padding: 15px; border: 1px solid var(--border);">
+                                <strong>Purpose:</strong> Support & Account Recovery<br>
+                                <strong>Basis:</strong> Consent (GDPR Art. 6(1)(a))
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
 
             <section id="how-we-use">
@@ -260,17 +286,55 @@
             </section>
 
             <section id="third-party">
-                <h2>Third-Party Sharing</h2>
-                <p>We do not sell your personal data. We share information with trusted partners who provide essential
-                    services:</p>
+                <h2>Third-Party Services & SDKs</h2>
+                <p>To provide high-quality services for free, we integrate Software Development Kits (SDKs) from trusted
+                    partners. This disclosure details who they are and how they handle your information:</p>
+
+                <h3 style="color: var(--primary);">Advertising & Monetization Partners</h3>
                 <ul>
-                    <li><span class="highlight">Advertising:</span> Google AdMob, Unity Ads, and AppLovin for delivering
-                        and measuring ads.</li>
-                    <li><span class="highlight">Analytics:</span> Firebase (Google) and Meta Pixel to understand how the
-                        app is used.</li>
-                    <li><span class="highlight">Cloud Infrastructure:</span> Google Cloud and Supabase for secure data
-                        storage and authentication.</li>
+                    <li><span class="highlight">Google AdMob:</span> For serving personalized advertisements. <br><a
+                            href="https://policies.google.com/privacy" style="color: var(--primary);">Read AdMob Privacy
+                            Policy</a></li>
+                    <li><span class="highlight">Unity Ads:</span> For high-quality video and rewarded ads. <br><a
+                            href="https://unity3d.com/legal/privacy-policy" style="color: var(--primary);">Read Unity
+                            Privacy Policy</a></li>
+                    <li><span class="highlight">AppLovin:</span> For ad mediation and analytics. <br><a
+                            href="https://www.applovin.com/privacy/" style="color: var(--primary);">Read AppLovin
+                            Privacy Policy</a></li>
                 </ul>
+
+                <h3 style="color: var(--primary);">Analytics & Performance Monitoring</h3>
+                <ul>
+                    <li><span class="highlight">Firebase (Google):</span> For understanding user trends and app
+                        stability. <br><a href="https://firebase.google.com/support/privacy"
+                            style="color: var(--primary);">Read Firebase Privacy Policy</a></li>
+                    <li><span class="highlight">Sentry:</span> For real-time crash reporting and debugging. <br><a
+                            href="https://sentry.io/privacy/" style="color: var(--primary);">Read Sentry Privacy
+                            Policy</a></li>
+                </ul>
+            </section>
+
+            <section id="india-legal">
+                <h2>Indian Legal Compliance (DPDPA & IT Act)</h2>
+                <p>In accordance with the <strong>Digital Personal Data Protection Act (DPDPA) 2023</strong> and the
+                    <strong>Information Technology (Reasonable Security Practices) Rules 2011</strong>, we have
+                    established a grievance mechanism.</p>
+
+                <div class="law-box">
+                    <p style="margin: 0; margin-bottom: 8px;"><span class="highlight">Grievance Officer:</span> T. D.
+                        Tejani</p>
+                    <p style="margin: 0; margin-bottom: 8px;"><span class="highlight">Designation:</span> Founder, Axial
+                        Labs</p>
+                    <p style="margin: 0; margin-bottom: 8px;"><span class="highlight">Contact:</span>
+                        labs.axial@gmail.com</p>
+                    <p style="margin: 0; margin-bottom: 8px;"><span class="highlight">Address:</span> Surat, Gujarat,
+                        India</p>
+                    <p
+                        style="margin: 0; font-size: 0.85rem; color: var(--text-dim); margin-top: 15px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 10px;">
+                        Grievances will be acknowledged within 24 hours and resolved within the statutory period of 30
+                        days.
+                    </p>
+                </div>
             </section>
 
             <section id="children">
