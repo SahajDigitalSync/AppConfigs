@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - CONNECT-ƎD</title>
+    <title>Privacy Policy - Axial Labs</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -13,133 +14,312 @@
             --surface: #121212;
             --text: #ffffff;
             --text-dim: #a0a0a0;
+            --border: rgba(255, 255, 255, 0.08);
         }
 
         body {
             font-family: 'Outfit', sans-serif;
             background-color: var(--bg);
             color: var(--text);
-            line-height: 1.6;
+            line-height: 1.7;
             margin: 0;
             padding: 0;
+            scroll-behavior: smooth;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 40px 20px;
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+
+            aside {
+                display: none;
+            }
         }
 
         header {
             text-align: center;
-            padding: 60px 0;
-            background: linear-gradient(135deg, rgba(112, 0, 255, 0.1) 0%, rgba(0, 242, 255, 0.1) 100%);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            margin-bottom: 40px;
+            padding: 80px 20px;
+            background: radial-gradient(circle at top right, rgba(112, 0, 255, 0.15), transparent),
+                radial-gradient(circle at top left, rgba(0, 242, 255, 0.15), transparent);
+            border-bottom: 1px solid var(--border);
         }
 
-        h1 {
-            font-size: 3rem;
-            font-weight: 600;
+        header h1 {
+            font-size: 3.5rem;
             margin: 0;
             background: linear-gradient(to right, var(--primary), var(--accent));
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
+            font-weight: 600;
         }
 
-        .last-updated {
+        .version-info {
+            margin-top: 15px;
             color: var(--text-dim);
             font-size: 0.9rem;
-            margin-top: 10px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
         }
 
-        section {
-            background: var(--surface);
-            padding: 30px;
-            border-radius: 16px;
-            margin-bottom: 24px;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            transition: transform 0.3s ease, border-color 0.3s ease;
+        aside {
+            position: sticky;
+            top: 40px;
+            height: fit-content;
         }
 
-        section:hover {
-            transform: translateY(-4px);
-            border-color: var(--primary);
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            border-left: 2px solid var(--border);
+        }
+
+        nav li a {
+            display: block;
+            padding: 10px 20px;
+            color: var(--text-dim);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 0.95rem;
+        }
+
+        nav li a:hover {
+            color: var(--primary);
+            background: rgba(0, 242, 255, 0.05);
+        }
+
+        main section {
+            margin-bottom: 60px;
         }
 
         h2 {
             color: var(--primary);
-            font-weight: 600;
-            margin-top: 0;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
 
-        p {
+        h2::before {
+            content: '';
+            display: block;
+            width: 4px;
+            height: 24px;
+            background: var(--accent);
+            border-radius: 2px;
+        }
+
+        h3 {
+            color: var(--text);
+            font-size: 1.2rem;
+            margin-top: 30px;
+        }
+
+        p,
+        li {
             color: var(--text-dim);
+            font-size: 1.05rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .highlight {
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        .law-box {
+            background: rgba(112, 0, 255, 0.05);
+            border: 1px solid rgba(112, 0, 255, 0.2);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
         }
 
         footer {
             text-align: center;
-            padding: 40px 0;
+            padding: 60px 20px;
+            border-top: 1px solid var(--border);
             color: var(--text-dim);
-            font-size: 0.8rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 0.9rem;
         }
 
-        .badge {
+        .contact-btn {
             display: inline-block;
-            padding: 4px 12px;
-            border-radius: 20px;
-            background: rgba(0, 242, 255, 0.1);
-            color: var(--primary);
-            font-size: 0.8rem;
+            margin-top: 20px;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, var(--accent), var(--primary));
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
             font-weight: 600;
-            margin-bottom: 12px;
+            transition: transform 0.2s ease;
+        }
+
+        .contact-btn:hover {
+            transform: scale(1.05);
         }
     </style>
 </head>
+
 <body>
 
     <header>
-        <div class="badge">LEGAL DEFINITION</div>
         <h1>Privacy Policy</h1>
-        <div class="last-updated">Last Updated: February 5, 2026</div>
+        <div class="version-info">Effective Date: February 5, 2026</div>
     </header>
 
     <div class="container">
-        <section id="introduction">
-            <h2>1. Introduction</h2>
-            <p>Welcome to <strong>CONNECT-ƎD</strong>. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you use our mobile application.</p>
-        </section>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#intro">1. Introduction</a></li>
+                    <li><a href="#data-types">2. Types of Data</a></li>
+                    <li><a href="#how-we-use">3. Usage of Data</a></li>
+                    <li><a href="#third-party">4. Third Parties</a></li>
+                    <li><a href="#children">5. Children's Privacy</a></li>
+                    <li><a href="#user-rights">6. Your Rights</a></li>
+                    <li><a href="#security">7. Security</a></li>
+                    <li><a href="#contact">8. Contact Us</a></li>
+                </ul>
+            </nav>
+        </aside>
 
-        <section id="data-collection">
-            <h2>2. Data We Collect</h2>
-            <p>We do not collect any personal identity information. We may collect non-personal data such as:</p>
-            <ul>
-                <li>Device information (Model, OS version)</li>
-                <li>Game progress and achievements</li>
-                <li>Anonymous usage statistics</li>
-            </ul>
-        </section>
+        <main>
+            <section id="intro">
+                <h2>Introduction & Scope</h2>
+                <p>Axial Labs ("we", "us", or "our") operates the mobile applications <strong>CONNECT-ƎD</strong>,
+                    <strong>DoctorDocs</strong>, and others (collectively, the "Services"). This Privacy Policy explains
+                    how we collect, use, and protect your information.
+                </p>
+                <div class="law-box">
+                    <p style="margin: 0; font-size: 0.9rem;"><strong>Compliance Note:</strong> This policy is designed
+                        to align with global standards including the GDPR (General Data Protection Regulation), CCPA
+                        (California Consumer Privacy Act), and the Information Technology Act (India).</p>
+                </div>
+            </section>
 
-        <section id="third-party">
-            <h2>3. Third-Party Services</h2>
-            <p>Our app uses third-party services that may collect information used to identify you:</p>
-            <ul>
-                <li>Google AdMob</li>
-                <li>Google Play Services / Apple Game Center</li>
-                <li>Firebase Analytics</li>
-            </ul>
-        </section>
+            <section id="data-types">
+                <h2>Types of Data Collected</h2>
 
-        <section id="contact">
-            <h2>4. Contact Us</h2>
-            <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at support@axiallabs.com.</p>
-        </section>
+                <h3>Personal Information</h3>
+                <p>We do not require you to provide personal identifiers (like your real name or physical address) to
+                    use basic game features. However, if you create an account, register for a tournament, or contact
+                    support, we may collect:</p>
+                <ul>
+                    <li><span class="highlight">Account Info:</span> Username, email address, and profile picture.</li>
+                    <li><span class="highlight">Support Interactions:</span> Name and email provided during support
+                        tickets.</li>
+                    <li><span class="highlight">Social Login:</span> If you sign in via Google or Apple, we receive an
+                        anonymized identifier and associated email.</li>
+                </ul>
 
-        <footer>
-            &copy; 2026 Axial Labs. All rights reserved.
-        </footer>
+                <h3>Non-Personal & Usage Data</h3>
+                <p>We automatically collect technical data to improve app performance and experience:</p>
+                <ul>
+                    <li><span class="highlight">Device IDs:</span> Advertising IDs (IDFA/AAID), device model, and OS
+                        version.</li>
+                    <li><span class="highlight">Gameplay Stats:</span> Level progress, achievements, and session
+                        duration.</li>
+                    <li><span class="highlight">Network Info:</span> IP address (anonymized) and general location
+                        (Country/City level).</li>
+                </ul>
+            </section>
+
+            <section id="how-we-use">
+                <h2>How We Use Your Data</h2>
+                <p>We process your information for the following purposes:</p>
+                <ul>
+                    <li><span class="highlight">Service Provision:</span> To save your progress, sync data across
+                        devices, and manage leaderboards.</li>
+                    <li><span class="highlight">Personalization:</span> To tailor in-game offers and adjust difficulty
+                        based on performance.</li>
+                    <li><span class="highlight">Monetization:</span> To deliver relevant advertisements and manage
+                        in-app purchases.</li>
+                    <li><span class="highlight">Security:</span> To prevent fraud, cheating, and unauthorized access to
+                        our servers.</li>
+                </ul>
+            </section>
+
+            <section id="third-party">
+                <h2>Third-Party Sharing</h2>
+                <p>We do not sell your personal data. We share information with trusted partners who provide essential
+                    services:</p>
+                <ul>
+                    <li><span class="highlight">Advertising:</span> Google AdMob, Unity Ads, and AppLovin for delivering
+                        and measuring ads.</li>
+                    <li><span class="highlight">Analytics:</span> Firebase (Google) and Meta Pixel to understand how the
+                        app is used.</li>
+                    <li><span class="highlight">Cloud Infrastructure:</span> Google Cloud and Supabase for secure data
+                        storage and authentication.</li>
+                </ul>
+            </section>
+
+            <section id="children">
+                <h2>Children's Privacy (COPPA)</h2>
+                <p>Our games are intended for a general audience. We do not knowingly collect personal data from
+                    children under the age of 13. If we discover a child under 13 has provided us with personal
+                    information, we will delete it immediately from our servers.</p>
+                <p>For users in the EU, the minimum age is 16 unless local law provides for a lower age. We comply with
+                    <span class="highlight">GDPR-K</span> requirements.
+                </p>
+            </section>
+
+            <section id="user-rights">
+                <h2>Your Rights & Choices</h2>
+                <p>Depending on your location, you may have the following rights:</p>
+                <ul>
+                    <li><span class="highlight">Access/Portability:</span> Request a copy of the data we hold about you.
+                    </li>
+                    <li><span class="highlight">Deletion:</span> Request that we erase your personal data ("Right to be
+                        Forgotten").</li>
+                    <li><span class="highlight">Opt-Out:</span> You can reset your Advertising ID in your device
+                        settings or opt-out of personalized ads within the app menu.</li>
+                </ul>
+            </section>
+
+            <section id="security">
+                <h2>Data Security</h2>
+                <p>We use industry-standard encryption (AES-256) and secure protocols (HTTPS) to protect your data
+                    during transfer and at rest. While no system is 100% secure, we regularly audit our partners'
+                    security practices.</p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>If you have any questions regarding this policy or wish to exercise your data rights, please contact
+                    our Data Protection Officer:</p>
+                <div style="margin-top: 20px;">
+                    <p><span class="highlight">Email:</span> privacy@axiallabs.com</p>
+                    <p><span class="highlight">Address:</span> Axial Labs, Neuchâtel, Switzerland</p>
+                    <a href="mailto:privacy@axiallabs.com" class="contact-btn">Email Privacy Team</a>
+                </div>
+            </section>
+        </main>
     </div>
 
+    <footer>
+        <p>&copy; 2026 Axial Labs. All Rights Reserved.</p>
+    </footer>
+
 </body>
+
 </html>
