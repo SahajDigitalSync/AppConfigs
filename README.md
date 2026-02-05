@@ -11,6 +11,9 @@ This repository serves as a centralized "Dashboard" for managing Remote Configur
 - **Connect_3D**: `https://cdn.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/configs/connect_3d.json`
 - **DoctorDocs**: `https://cdn.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/configs/doctor_docs.json`
 
+## Policies & Documents
+- **Privacy Policy**: `https://cdn.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/policies/privacy_policy.html`
+
 ## Deployment & Maintenance
 - **To Update**: Edit the JSON file on GitHub.com and commit.
 - **Automation**: A GitHub Action is configured to automatically purge the jsDelivr CDN cache for any changed file on every push. Your changes will go live globally in seconds.
