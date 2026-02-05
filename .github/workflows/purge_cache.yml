@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'configs/**'
+      - 'policies/**'
 
 jobs:
   purge:
@@ -20,15 +21,24 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v44
         with:
-          files: configs/**
+          files: |
+            configs/**
+            policies/**
 
-      - name: Purge Changed Configs
+      - name: Purge Changed Files
         if: steps.changed-files.outputs.any_changed == 'true'
         env:
           CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           for file in ${CHANGED_FILES}; do
-            filename=$(basename "$file")
-            echo "Purging cache for $filename..."
-            curl -i "https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/configs/$filename"
+            # Detect if it's a config or a policy
+            if [[ $file == configs/* ]]; then
+              filename=$(basename "$file")
+              echo "Purging config: $filename"
+              curl -i "https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/configs/$filename"
+            elif [[ $file == policies/* ]]; then
+              filename=$(basename "$file")
+              echo "Purging policy: $filename"
+              curl -i "https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/policies/$filename"
+            fi
           done
