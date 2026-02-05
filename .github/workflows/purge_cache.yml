@@ -1,0 +1,16 @@
+name: Purge jsDelivr Cache
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'configs/**'
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge Connect_3D Cache
+        run: |
+          curl -i https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/configs/connect_3d.json
