@@ -24,7 +24,7 @@
     "placements": {
       "home_screen": {
         "banner": {
-          "enabled": false
+          "enabled": true
         }
       },
       "cube_lab": {
