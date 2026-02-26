@@ -1,62 +1,62 @@
 {
-    "ad_config": {
-        "show_ads": false,
-        "ad_ids": {
-            "android": {
-                "admob": {
-                    "banner": "ca-app-pub-3940256099942544/6300978111",
-                    "interstitial": "ca-app-pub-3940256099942544/1033173712",
-                    "rewarded": "ca-app-pub-3940256099942544/5224354917",
-                    "native_grid": "ca-app-pub-3940256099942544/2247696110",
-                    "native_labs": "ca-app-pub-3940256099942544/2247696110"
-                }
-            },
-            "ios": {
-                "admob": {
-                    "banner": "ca-app-pub-3940256099942544/2934735716",
-                    "interstitial": "ca-app-pub-3940256099942544/4411468910",
-                    "rewarded": "ca-app-pub-3940256099942544/1712485313",
-                    "native_grid": "ca-app-pub-3940256099942544/3986624511",
-                    "native_labs": "ca-app-pub-3940256099942544/3986624511"
-                }
-            }
-        },
-        
-        "placements": {
-            "home_screen": {
-                "banner": {
-                    "enabled": true
-                }
-            },
-            "cube_lab": {
-                "banner": {
-                    "enabled": true
-                }
-            },
-            "level_complete": {
-                "enabled": true,
-                "interval": 1
-            },
-            "hint_button": {
-                "enabled": true
-            },
-            "undo_multistep": {
-                "enabled": true
-            },
-            "unlock_level": {
-                "enabled": true
-            },
-            "level_grid": {
-                "enabled": true,
-                "interval": 3
-            }
+  "ad_config": {
+    "show_ads": false,
+    "ad_ids": {
+      "android": {
+        "admob": {
+          "banner": "ca-app-pub-3940256099942544/6300978111",
+          "interstitial": "ca-app-pub-3940256099942544/1033173712",
+          "rewarded": "ca-app-pub-3940256099942544/5224354917",
+          "native_grid": "ca-app-pub-3940256099942544/2247696110",
+          "native_labs": "ca-app-pub-3940256099942544/2247696110"
         }
+      },
+      "ios": {
+        "admob": {
+          "banner": "ca-app-pub-3940256099942544/2934735716",
+          "interstitial": "ca-app-pub-3940256099942544/4411468910",
+          "rewarded": "ca-app-pub-3940256099942544/1712485313",
+          "native_grid": "ca-app-pub-3940256099942544/3986624511",
+          "native_labs": "ca-app-pub-3940256099942544/3986624511"
+        }
+      }
     },
-    "update_config": {
-        "latest_version": "1.0.0",
-        "min_required_version": "0.0.1",
-        "store_url_android": "https://play.google.com/store/apps/details?id=com.axiallab.cube_rotation",
-        "store_url_ios": "https://apps.apple.com/app/id123456789",
-        "update_message": "New levels and features available!"
+    "placements": {
+      "home_screen": {
+        "banner": {
+          "enabled": true
+        }
+      },
+      "cube_lab": {
+        "banner": {
+          "enabled": true
+        }
+      },
+      "level_complete": {
+        "enabled": true,
+        "interval": 1
+      },
+      "hint_button": {
+        "enabled": true
+      },
+      "undo_multistep": {
+        "enabled": true
+      },
+      "unlock_level": {
+        "enabled": true
+      },
+      "level_grid": {
+        "enabled": true,
+        "interval": 3
+      }
     }
+  },
+  "update_config": {
+    "latest_version": "1.0.0",
+    "min_required_version": "0.0.1",
+    "store_url_android": "https://play.google.com/store/apps/details?id=com.axiallab.cube_rotation",
+    "store_url_ios": "https://apps.apple.com/app/id123456789",
+    "update_message": "New levels and features available!"
+  },
+  "admob_publisher_id": "pub-4084542861235087"
 }
