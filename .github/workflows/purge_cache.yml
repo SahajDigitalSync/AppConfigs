@@ -6,8 +6,7 @@ on:
       - main
     paths:
       - 'configs/**'
-      - 'policies/**'
-
+      
 jobs:
   purge:
     runs-on: ubuntu-latest
@@ -23,22 +22,11 @@ jobs:
         with:
           files: |
             configs/**
-            policies/**
 
       - name: Purge Changed Files
         if: steps.changed-files.outputs.any_changed == 'true'
-        env:
-          CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          for file in ${CHANGED_FILES}; do
-            # Detect if it's a config or a policy
-            if [[ $file == configs/* ]]; then
-              filename=$(basename "$file")
-              echo "Purging config: $filename"
-              curl -i "https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/configs/$filename"
-            elif [[ $file == policies/* ]]; then
-              filename=$(basename "$file")
-              echo "Purging policy: $filename"
-              curl -i "https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/policies/$filename"
-            fi
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "Purging: $file"
+            curl -s -i "https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/$file"
           done
