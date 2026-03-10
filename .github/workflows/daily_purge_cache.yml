@@ -1,0 +1,40 @@
+name: Daily jsDelivr Purge
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every 24 hours at midnight UTC
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Purge jsDelivr Cache
+        run: |
+          # Directories to scan for files to purge
+          DIRS=("configs")
+          
+          for dir in "${DIRS[@]}"; do
+            if [ -d "$dir" ]; then
+              echo "--- Purging files in $dir ---"
+              find "$dir" -type f | while read -r file; do
+                # Construct the purge URL
+                # Note: Replace 'SahajDigitalSync/AppConfigs' if this is used in a different repo
+                PURGE_URL="https://purge.jsdelivr.net/gh/SahajDigitalSync/AppConfigs/$file"
+                
+                echo "Purging: $file"
+                STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$PURGE_URL")
+                
+                if [ "$STATUS" -eq "200" ]; then
+                  echo "Successfully purged: $file"
+                else
+                  echo "Warning: Received HTTP $STATUS for $file"
+                fi
+              done
+            else
+              echo "Directory $dir not found, skipping."
+            fi
+          done
