@@ -1,7 +1,7 @@
 {
   "update_config": {
-    "latest_version": "1.0.1",
-    "min_required_version": "1.0.1",
+    "latest_version": "1.0.0",
+    "min_required_version": "1.0.0",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.jeetkakadiya.pdf_editor",
     "store_url_ios": "https://apps.apple.com/app/id123456789",
     "update_message": "We've added exciting new features!"
