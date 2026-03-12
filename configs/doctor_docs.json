@@ -1,41 +1,210 @@
 {
-    "ad_config": {
-        "show_ads": true,
-        "ad_ids": {
-            "android": {
-                "admob": {
-                    "banner": "ca-app-pub-3940256099942544/6300978111",
-                    "interstitial": "ca-app-pub-3940256099942544/1033173712",
-                    "rewarded": "ca-app-pub-3940256099942544/5224354917"
-                }
-            },
-            "ios": {
-                "admob": {
-                    "banner": "ca-app-pub-3940256099942544/2934735716",
-                    "interstitial": "ca-app-pub-3940256099942544/4411468910",
-                    "rewarded": "ca-app-pub-3940256099942544/1712485313"
-                }
-            }
+  "update_config": {
+    "latest_version": "1.0.0",
+    "min_required_version": "1.0.0",
+    "store_url_android": "https://play.google.com/store/apps/details?id=com.jeetkakadiya.pdf_editor",
+    "store_url_ios": "https://apps.apple.com/app/id123456789",
+    "update_message": "We've added exciting new features!"
+  },
+  "ads_config": {
+    "show_ads": false,
+    "ad_ids": {
+      "android": {
+        "banner": "ca-app-pub-3940256099942544/6300978111",
+        "interstitial": "ca-app-pub-3940256099942544/1033173712",
+        "rewarded": "ca-app-pub-3940256099942544/5224354917",
+        "native": "ca-app-pub-3940256099942544/2247696110",
+        "native_image": "ca-app-pub-3940256099942544/2247696110",
+        "native_video": "ca-app-pub-3940256099942544/1044960115",
+        "app_open": "ca-app-pub-3940256099942544/9257395921"
+      },
+      "ios": {
+        "banner": "ca-app-pub-3940256099942544/2934735716",
+        "interstitial": "ca-app-pub-3940256099942544/4411468910",
+        "rewarded": "ca-app-pub-3940256099942544/1712485313",
+        "native": "ca-app-pub-3940256099942544/3986624511",
+        "native_image": "ca-app-pub-3940256099942544/3986624511",
+        "native_video": "ca-app-pub-3940256099942544/2521693316",
+        "app_open": "ca-app-pub-3940256099942544/5575463023"
+      }
+    },
+    "placements": {
+      "home_screen": {
+        "enabled": true,
+        "banner": {
+          "enabled": true,
+          "toggle_duration": 20
         },
-        "placements": {
-            "home": {
-                "enabled": true
-            },
-            "document_view": {
-                "enabled": true,
-                "interval": 5
-            }
+        "native_ad": {
+          "enabled": true
         }
-    },
-    "update_config": {
-        "latest_version": "1.0.0",
-        "min_required_version": "1.0.0",
-        "store_url_android": "https://play.google.com/store/apps/details?id=com.sahaj.doctordocs",
-        "store_url_ios": "https://apps.apple.com/app/id123456789",
-        "update_message": "New document analysis features added!"
-    },
-    "feature_flags": {
-        "enable_ocr": true,
-        "enable_cloud_sync": true
+      },
+      "scanner_screen": {
+        "enabled": true,
+        "scanned_images": {
+          "enabled": true,
+          "interval": 4
+        },
+        "converted_pdfs": {
+          "enabled": true,
+          "interval": 5
+        },
+        "save_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false
+        },
+        "done_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 2
+        }
+      },
+      "files_screen": {
+        "enabled": true,
+        "files_main": {
+          "native_ad": {
+            "enabled": true
+          }
+        },
+        "file_browser": {
+          "list": {
+            "enabled": true,
+            "interval": 4,
+            "is_video": true
+          },
+          "grid": {
+            "enabled": true,
+            "interval": 6,
+            "is_video": true,
+            "show_as_row": true
+          }
+        }
+      },
+      "tools_screen": {
+        "image_to_pdf_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "compress_pdf_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "merge_pdf_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "pdf_to_jpg_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "split_pdf_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "edit_pdf_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "organize_pdf_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "delete_pages_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "rotate_pages_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "add_page_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "lock_pdf_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "unlock_pdf_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "scan_forms_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "page_numbers_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
+        },
+        "sign_pdf_ad": {
+          "enabled": true,
+          "show_interstitial": false,
+          "show_rewarded": true,
+          "frequency": 1
+        },
+        "watermark_ad": {
+          "enabled": true,
+          "show_interstitial": false,
+          "show_rewarded": true,
+          "frequency": 1
+        }
+      },
+      "app_open": {
+        "enabled": false
+      },
+      "share_ad": {
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true,
+        "frequency": 1
+      },
+      "signature_save_ad": {
+        "enabled": true,
+        "show_rewarded": true,
+        "show_interstitial": false
+      },
+      "watermark_save_ad": {
+        "enabled": true,
+        "show_rewarded": true,
+        "show_interstitial": false
+      },
+      "pdf_viewer_screen": {
+        "banner": {
+          "enabled": true,
+          "toggle_duration": 15
+        }
+      }
     }
+  }
 }
