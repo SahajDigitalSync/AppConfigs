@@ -6,6 +6,11 @@
     "store_url_ios": "https://apps.apple.com/app/id123456789",
     "update_message": "We've added exciting new features!"
   },
+    "app_urls": {
+    "privacy_policy": "https://doctordocs.actual-innovation.com/privacy-policy.html",
+    "share_app_android": "https://play.google.com/store/apps?hl=en_IN",
+    "share_app_ios": "https://www.apple.com/in/app-store/"
+  },
   "ads_config": {
     "show_ads": false,
     "ad_ids": {
