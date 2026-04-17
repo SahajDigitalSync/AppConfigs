@@ -12,7 +12,7 @@
     "share_app_ios": "https://www.apple.com/in/app-store/"
   },
   "ads_config": {
-    "show_ads": true,
+    "show_ads": false,
     "ad_ids": {
   "android": {
     "banner": "ca-app-pub-9758638529065843/7596604391",
