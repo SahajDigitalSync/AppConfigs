@@ -12,17 +12,19 @@
     "share_app_ios": "https://www.apple.com/in/app-store/"
   },
   "ads_config": {
-    "show_ads": false,
+    "show_ads": true,
     "ad_ids": {
-      "android": {
-        "banner": "ca-app-pub-3940256099942544/6300978111",
-        "interstitial": "ca-app-pub-3940256099942544/1033173712",
-        "rewarded": "ca-app-pub-3940256099942544/5224354917",
-        "native": "ca-app-pub-3940256099942544/2247696110",
-        "native_image": "ca-app-pub-3940256099942544/2247696110",
-        "native_video": "ca-app-pub-3940256099942544/1044960115",
-        "app_open": "ca-app-pub-3940256099942544/9257395921"
-      },
+  "android": {
+    "banner": "ca-app-pub-9758638529065843/7596604391",
+    "interstitial": "ca-app-pub-9758638529065843/2152706025",
+    "rewarded": "ca-app-pub-9758638529065843/5900379348",
+    "native": "ca-app-pub-9758638529065843/3521628017",
+    "native_image": "ca-app-pub-9758638529065843/3521628017",
+    "native_video": "ca-app-pub-9758638529065843/3521628017",
+    "app_open": "ca-app-pub-9758638529065843/9500726312"
+  }
+}
+
       "ios": {
         "banner": "ca-app-pub-3940256099942544/2934735716",
         "interstitial": "ca-app-pub-3940256099942544/4411468910",
