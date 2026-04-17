@@ -6,7 +6,7 @@
     "store_url_ios": "https://apps.apple.com/app",
     "update_message": "We've added exciting new features!"
   },
-    "app_urls": {
+  "app_urls": {
     "privacy_policy": "https://actual-innovation.com/privacy-policy",
     "share_app_android": "https://play.google.com/store/apps/details?id=com.doctordocs.pdfeditor",
     "share_app_ios": "https://www.apple.com/in/app-store/"
@@ -14,16 +14,15 @@
   "ads_config": {
     "show_ads": false,
     "ad_ids": {
-  "android": {
-    "banner": "ca-app-pub-9758638529065843/7596604391",
-    "interstitial": "ca-app-pub-9758638529065843/2152706025",
-    "rewarded": "ca-app-pub-9758638529065843/5900379348",
-    "native": "ca-app-pub-9758638529065843/3521628017",
-    "native_image": "ca-app-pub-9758638529065843/3521628017",
-    "native_video": "ca-app-pub-9758638529065843/3521628017",
-    "app_open": "ca-app-pub-9758638529065843/9500726312"
-  },
-
+      "android": {
+        "banner": "ca-app-pub-9758638529065843/7596604391",
+        "interstitial": "ca-app-pub-9758638529065843/2152706025",
+        "rewarded": "ca-app-pub-9758638529065843/5900379348",
+        "native": "ca-app-pub-9758638529065843/3521628017",
+        "native_image": "ca-app-pub-9758638529065843/3521628017",
+        "native_video": "ca-app-pub-9758638529065843/3521628017",
+        "app_open": "ca-app-pub-9758638529065843/9500726312"
+      },
       "ios": {
         "banner": "ca-app-pub-3940256099942544/2934735716",
         "interstitial": "ca-app-pub-3940256099942544/4411468910",
