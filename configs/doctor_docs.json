@@ -39,7 +39,7 @@
         "enabled": true,
         "banner": {
           "enabled": true,
-          "toggle_duration": 20
+          "toggle_duration": 40
         },
         "native_ad": {
           "enabled": true
@@ -208,7 +208,7 @@
       "pdf_viewer_screen": {
         "banner": {
           "enabled": true,
-          "toggle_duration": 15
+          "toggle_duration": 30
         }
       }
     }
