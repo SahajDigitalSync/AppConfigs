@@ -34,6 +34,12 @@
       }
     },
     "placements": {
+      "rename_ad": {
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true,
+        "frequency": 1
+      },
       "home_screen": {
         "enabled": true,
         "banner": {
