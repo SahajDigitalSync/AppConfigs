@@ -4,11 +4,11 @@
     "ad_ids": {
       "android": {
         "admob": {
-          "banner": "ca-app-pub-3940256099942544/6300978111",
-          "interstitial": "ca-app-pub-3940256099942544/1033173712",
-          "rewarded": "ca-app-pub-3940256099942544/5224354917",
-          "native_grid": "ca-app-pub-3940256099942544/2247696110",
-          "native_labs": "ca-app-pub-3940256099942544/2247696110"
+          "banner": "ca-app-pub-4084542861235087/5982328990",
+          "interstitial": "ca-app-pub-4084542861235087/1508392207",
+          "rewarded": "ca-app-pub-4084542861235087/6366623756",
+          "native_grid": "ca-app-pub-4084542861235087/5332689789",
+          "native_labs": "ca-app-pub-4084542861235087/7467898531"
         }
       },
       "ios": {
