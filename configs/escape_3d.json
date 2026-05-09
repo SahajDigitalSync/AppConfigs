@@ -11,11 +11,9 @@
       },
       "ios": {
         "admob": {
-          "banner": "ca-app-pub-3940256099942544/2934735716",
-          "interstitial": "ca-app-pub-3940256099942544/4411468910",
-          "rewarded": "ca-app-pub-3940256099942544/1712485313",
-          "native_grid": "ca-app-pub-3940256099942544/3986624511",
-          "native_labs": "ca-app-pub-3940256099942544/3986624511"
+          "level_complete_reward": "ca-app-pub-4084542861235087/2017558785",
+          "level_complete_inter": "ca-app-pub-4084542861235087/7654852672",
+          "power_up_reward": "ca-app-pub-4084542861235087/5599534976"
         }
       }
     },
