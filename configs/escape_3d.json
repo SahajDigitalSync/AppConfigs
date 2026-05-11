@@ -29,7 +29,7 @@
           "erase" : 1
         } 
       }
-    },
+    }
   },
   "update_config": {
     "latest_version": "1.0.0",
