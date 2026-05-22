@@ -13,6 +13,8 @@
   },
   "ads_config": {
     "show_ads": true,
+    "show_ads_android": true,
+    "show_ads_ios": false,
     "ad_ids": {
       "android": {
         "banner": "ca-app-pub-9758638529065843/7596604391",
@@ -24,13 +26,13 @@
         "app_open": "ca-app-pub-9758638529065843/9500726312"
       },
       "ios": {
-        "banner": "ca-app-pub-3940256099942544/2934735716",
-        "interstitial": "ca-app-pub-3940256099942544/4411468910",
-        "rewarded": "ca-app-pub-3940256099942544/1712485313",
-        "native": "ca-app-pub-3940256099942544/3986624511",
-        "native_image": "ca-app-pub-3940256099942544/3986624511",
-        "native_video": "ca-app-pub-3940256099942544/2521693316",
-        "app_open": "ca-app-pub-3940256099942544/5575463023"
+        "banner": "ca-app-pub-9758638529065843/8833083579",
+        "interstitial": "ca-app-pub-9758638529065843/7860047402",
+        "rewarded": "ca-app-pub-9758638529065843/1823602186",
+        "native": "ca-app-pub-9758638529065843/9088589661",
+        "native_image": "ca-app-pub-9758638529065843/9088589661",
+        "native_video": "ca-app-pub-9758638529065843/9088589661",
+        "app_open": "ca-app-pub-9758638529065843/5571275501"
       }
     },
     "placements": {
