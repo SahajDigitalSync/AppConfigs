@@ -1,6 +1,6 @@
 {
   "ad_config": {
-    "show_ads": false,
+    "show_ads": true,
     "ad_ids": {
       "android": {
         "admob": {
