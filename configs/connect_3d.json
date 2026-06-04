@@ -13,11 +13,11 @@
       },
       "ios": {
         "admob": {
-          "banner": "ca-app-pub-3940256099942544/2934735716",
-          "interstitial": "ca-app-pub-3940256099942544/4411468910",
-          "rewarded": "ca-app-pub-3940256099942544/1712485313",
-          "native_grid": "ca-app-pub-3940256099942544/3986624511",
-          "native_labs": "ca-app-pub-3940256099942544/3986624511"
+          "banner": "ca-app-pub-4084542861235087/9626555378",
+          "interstitial": "ca-app-pub-4084542861235087/3325527445",
+          "rewarded": "ca-app-pub-4084542861235087/2176097309",
+          "native_grid": "ca-app-pub-4084542861235087/6166780373",
+          "native_labs": "ca-app-pub-4084542861235087/7170006326"
         }
       }
     },
