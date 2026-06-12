@@ -19,7 +19,7 @@
     },
     "settings": {
       "level_complete": {
-          "type" : "reward",
+          "type" : "inter",
           "interval" : 1
       },
       "power_up" : {
