@@ -13,6 +13,10 @@
   },
   "ads_config": {
     "show_ads": true,
+    "event_details" : {
+      "name" : "completion",
+      "count" : "3"
+    },
     "show_ads_android": true,
     "show_ads_ios": true,
     "ad_ids": {
