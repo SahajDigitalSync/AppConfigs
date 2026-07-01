@@ -4,16 +4,16 @@
     "ad_ids": {
       "android": {
         "admob": {
-          "level_complete_reward": "ca-app-pub-4084542861235087/3006757117",
+          "game_over_continue_reward": "ca-app-pub-4084542861235087/8118131928",
           "level_complete_inter": "ca-app-pub-4084542861235087/3793225179",
-          "power_up_reward": "ca-app-pub-4084542861235087/1693675440"
+          "power_up_reward": "ca-app-pub-4084542861235087/8574778563"
         }
       },
       "ios": {
         "admob": {
-          "level_complete_reward": "ca-app-pub-4084542861235087/2017558785",
+          "game_over_continue_reward": "ca-app-pub-4084542861235087/2017558785",
           "level_complete_inter": "ca-app-pub-4084542861235087/7654852672",
-          "power_up_reward": "ca-app-pub-4084542861235087/5599534976"
+          "power_up_reward": "ca-app-pub-4084542861235087/7879759519"
         }
       }
     },
