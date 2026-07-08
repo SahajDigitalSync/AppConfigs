@@ -19,20 +19,20 @@
     },
     "settings": {
       "level_complete": {
-          "type" : "inter",
-          "interval" : 1
+        "type": "inter",
+        "interval": 1
       },
-      "power_up" : {
-        "counts" : {
-          "hint" : 3,
-          "peek" : 2,
-          "erase" : 1
-        } 
+      "power_up": {
+        "counts": {
+          "hint": 3,
+          "peek": 2,
+          "erase": 1
+        }
       }
     }
   },
   "update_config": {
-    "latest_version": "0.0.1",
+    "latest_version": "1.0.0",
     "min_required_version": "0.0.1",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.axiallabs.connect3d",
     "store_url_ios": "https://apps.apple.com/app/id123456789",
