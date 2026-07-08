@@ -1,0 +1,17 @@
+{
+  "ad_config": {
+    "show_ads": false,
+    "ad_ids": {
+      "android": {
+        "admob": {},
+        "unity": "something"
+      },
+      "ios": {
+        "admob": {}
+      }
+    },
+    "settings": {}
+  },
+  "update_config": {},
+  "admob_publisher_id": ""
+}
