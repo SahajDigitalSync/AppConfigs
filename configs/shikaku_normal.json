@@ -1,0 +1,42 @@
+{
+  "ad_config": {
+    "show_ads": true,
+    "ad_ids": {
+      "android": {
+        "admob": {
+          "game_over_continue_reward": "ca-app-pub-4084542861235087/8118131928",
+          "level_complete_inter": "ca-app-pub-4084542861235087/3793225179",
+          "power_up_reward": "ca-app-pub-4084542861235087/8574778563"
+        }
+      },
+      "ios": {
+        "admob": {
+          "game_over_continue_reward": "ca-app-pub-4084542861235087/2017558785",
+          "level_complete_inter": "ca-app-pub-4084542861235087/7654852672",
+          "power_up_reward": "ca-app-pub-4084542861235087/7879759519"
+        }
+      }
+    },
+    "settings": {
+      "level_complete": {
+          "type" : "inter",
+          "interval" : 1
+      },
+      "power_up" : {
+        "counts" : {
+          "hint" : 3,
+          "peek" : 2,
+          "erase" : 1
+        } 
+      }
+    }
+  },
+  "update_config": {
+    "latest_version": "0.0.1",
+    "min_required_version": "0.0.1",
+    "store_url_android": "https://play.google.com/store/apps/details?id=com.axiallabs.connect3d",
+    "store_url_ios": "https://apps.apple.com/app/id123456789",
+    "update_message": "New levels and features available!"
+  },
+  "admob_publisher_id": "pub-4084542861235087"
+}
