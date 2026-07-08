@@ -3,7 +3,10 @@
     "show_ads": false,
     "ad_ids": {
       "android": {
-        "admob": {}
+        "admob": {},
+        "untiy": {
+          "ad_id": "something"
+        }
       },
       "ios": {
         "admob": {}
