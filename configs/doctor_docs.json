@@ -13,9 +13,9 @@
   },
   "ads_config": {
     "show_ads": true,
-    "event_details" : {
-      "name" : "completion",
-      "count" : "3"
+    "event_details": {
+      "name": "completion",
+      "count": "3"
     },
     "show_ads_android": true,
     "show_ads_ios": true,
@@ -42,8 +42,8 @@
     "placements": {
       "rename_ad": {
         "enabled": true,
-        "show_interstitial": false,
-        "show_rewarded": true,
+        "show_interstitial": true,
+        "show_rewarded": false,
         "frequency": 1
       },
       "home_screen": {
@@ -208,8 +208,8 @@
       },
       "share_ad": {
         "enabled": true,
-        "show_interstitial": false,
-        "show_rewarded": true,
+        "show_interstitial": true,
+        "show_rewarded": false,
         "frequency": 1
       },
       "signature_save_ad": {
