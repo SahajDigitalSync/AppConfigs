@@ -33,8 +33,8 @@
       },
       "level_complete": {
         "enabled": true,
-        "show_interstitial": false,
-        "show_rewarded": true,
+        "show_interstitial": true,
+        "show_rewarded": false,
         "frequency": 1
       },
       "game_over_continue": {
@@ -48,10 +48,14 @@
         "show_rewarded": false
       },
       "hint": {
-        "enabled": true
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true
       },
       "erase": {
-        "enabled": true
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true
       }
     }
   },
