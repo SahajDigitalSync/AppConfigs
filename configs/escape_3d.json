@@ -31,6 +31,10 @@
       "home_banner": {
         "enabled": true
       },
+      "gameplay_banner": {
+        "enabled": true,
+        "toggle_duration": 40
+      },
       "level_complete": {
         "enabled": true,
         "show_interstitial": true,
