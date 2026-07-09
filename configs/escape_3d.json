@@ -42,6 +42,11 @@
         "show_interstitial": false,
         "show_rewarded": true
       },
+      "back_to_home": {
+        "enabled": true,
+        "show_interstitial": true,
+        "show_rewarded": false
+      },
       "hint": {
         "enabled": true
       },
