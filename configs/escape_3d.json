@@ -13,7 +13,7 @@
   },
   "ads_config": {
     "show_ads": false,
-    "show_ads_android": true,
+    "show_ads_android": false,
     "show_ads_ios": false,
     "ad_ids": {
       "android": {
