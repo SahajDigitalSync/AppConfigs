@@ -12,7 +12,7 @@
     "share_app_ios": "https://apps.apple.com/app/id123456789"
   },
   "ads_config": {
-    "show_ads": true,
+    "show_ads": false,
     "show_ads_android": true,
     "show_ads_ios": true,
     "ad_ids": {
