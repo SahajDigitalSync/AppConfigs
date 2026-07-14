@@ -8,8 +8,8 @@
   },
   "app_urls": {
     "privacy_policy": "https://actual-innovation.com/privacy-policy",
-    "share_app_android": "https://play.google.com/store/apps/details?id=com.axiallabs.connect3d",
-    "share_app_ios": "https://apps.apple.com/us/app/doctordocs-pdf-editor-scanner/id6771757120"
+    "share_app_android": "",
+    "share_app_ios": ""
   },
   "ads_config": {
     "show_ads": false,
