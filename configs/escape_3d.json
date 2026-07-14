@@ -2,14 +2,14 @@
   "update_config": {
     "latest_version": "0.0.1",
     "min_required_version": "0.0.1",
-    "store_url_android": "https://play.google.com/store/apps/details?id=com.axiallabs.connect3d",
+    "store_url_android": "https://play.google.com/store/apps/details?id=com.axiallabs.escape3d",
     "store_url_ios": "https://apps.apple.com/us/app/doctordocs-pdf-editor-scanner/id6771757120",
     "update_message": "New levels and features available!"
   },
   "app_urls": {
     "privacy_policy": "https://actual-innovation.com/privacy-policy",
-    "share_app_android": "",
-    "share_app_ios": ""
+    "share_app_android": "https://play.google.com/store/apps/details?id=com.axiallabs.connect3d",
+    "share_app_ios": "https://apps.apple.com/us/app/doctordocs-pdf-editor-scanner/id6771757120"
   },
   "ads_config": {
     "show_ads": false,
