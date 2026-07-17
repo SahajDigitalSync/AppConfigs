@@ -17,14 +17,14 @@
     "show_ads_ios": false,
     "ad_ids": {
       "android": {
-        "banner": "ca-app-pub-4084542861235087/3142451466",
-        "interstitial": "ca-app-pub-4084542861235087/3793225179",
-        "rewarded": "ca-app-pub-4084542861235087/8118131928"
+        "banner": "ca-app-pub-4084542861235087/8215537522",
+        "interstitial": "ca-app-pub-4084542861235087/8121415590",
+        "rewarded": "ca-app-pub-4084542861235087/1823600553"
       },
       "ios": {
-        "banner": "ca-app-pub-4084542861235087/3478292149",
-        "interstitial": "ca-app-pub-4084542861235087/7654852672",
-        "rewarded": "ca-app-pub-4084542861235087/2017558785"
+        "banner": "ca-app-pub-4084542861235087/9841691374",
+        "interstitial": "ca-app-pub-4084542861235087/2098932720",
+        "rewarded": "ca-app-pub-4084542861235087/9999392485"
       }
     },
     "placements": {
