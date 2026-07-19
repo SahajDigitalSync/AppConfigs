@@ -214,8 +214,8 @@
       },
       "signature_save_ad": {
         "enabled": true,
-        "show_rewarded": true,
-        "show_interstitial": false
+        "show_rewarded": false,
+        "show_interstitial": true
       },
       "watermark_save_ad": {
         "enabled": true,
