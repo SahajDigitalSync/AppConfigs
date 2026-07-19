@@ -12,9 +12,9 @@
     "share_app_ios": "https://apps.apple.com/in/app/doctordocs-pdf-editor-scanner/id6771757120"
   },
   "ads_config": {
-    "show_ads": false,
+    "show_ads": true,
     "show_ads_android": false,
-    "show_ads_ios": false,
+    "show_ads_ios": true,
     "ad_ids": {
       "android": {
         "banner": "ca-app-pub-4084542861235087/8215537522",
