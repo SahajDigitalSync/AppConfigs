@@ -68,13 +68,13 @@
         },
         "save_ad": {
           "enabled": true,
-          "show_rewarded": true,
-          "show_interstitial": false
+          "show_rewarded": false,
+          "show_interstitial": true
         },
         "done_ad": {
           "enabled": true,
-          "show_rewarded": true,
-          "show_interstitial": false,
+          "show_rewarded": false,
+          "show_interstitial": true,
           "frequency": 1
         }
       },
