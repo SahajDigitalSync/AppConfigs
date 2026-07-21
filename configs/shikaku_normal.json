@@ -56,10 +56,11 @@
         "show_interstitial": false,
         "show_rewarded": true
       },
-      "erase": {
+      "restart_game": {
         "enabled": true,
         "show_interstitial": false,
-        "show_rewarded": true
+        "show_rewarded": true,
+        "frequency": 1
       }
     }
   },
