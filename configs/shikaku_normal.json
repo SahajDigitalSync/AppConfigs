@@ -61,6 +61,11 @@
         "show_interstitial": false,
         "show_rewarded": true,
         "frequency": 1
+      },
+      "daily_challenge": {
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true
       }
     }
   },
