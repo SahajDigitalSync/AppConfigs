@@ -1,6 +1,6 @@
 {
   "update_config": {
-    "latest_version": "0.0.1",
+    "latest_version": "0.0.2",
     "min_required_version": "0.0.1",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.axiallabs.connect3d",
     "store_url_ios": "https://apps.apple.com/in/app/doctordocs-pdf-editor-scanner/id6771757120",
