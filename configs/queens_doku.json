@@ -1,16 +1,76 @@
 {
-  "ad_config": {
-    "show_ads": false,
+  "update_config": {
+    "latest_version": "1.0.0",
+    "min_required_version": "1.0.0",
+    "store_url_android": "https://play.google.com/store/apps/details?id=com.yourcompany.cowdoku",
+    "store_url_ios": "https://apps.apple.com/app/id123456789",
+    "update_message": "New levels and features available!",
+    "review_levels": [
+      "1",
+      "5",
+      "10"
+    ]
+  },
+  "app_urls": {
+    "privacy_policy": "https://yourcompany.com/privacy",
+    "share_app_android": "https://play.google.com/store/apps/details?id=com.yourcompany.cowdoku",
+    "share_app_ios": "https://apps.apple.com/app/id123456789"
+  },
+  "ads_config": {
+    "show_ads": true,
+    "show_ads_android": true,
+    "show_ads_ios": true,
     "ad_ids": {
       "android": {
-        "admob": {}
+        "banner": "ca-app-pub-3940256099942544/6300978111",
+        "interstitial": "ca-app-pub-3940256099942544/1033173712",
+        "rewarded": "ca-app-pub-3940256099942544/5224354917"
       },
       "ios": {
-        "admob": {}
+        "banner": "ca-app-pub-3940256099942544/2934735716",
+        "interstitial": "ca-app-pub-3940256099942544/4411468910",
+        "rewarded": "ca-app-pub-3940256099942544/1712485313"
       }
     },
-    "settings": {}
+    "placements": {
+      "home_banner": {
+        "enabled": true
+      },
+      "gameplay_banner": {
+        "enabled": true,
+        "toggle_duration": 40
+      },
+      "level_complete": {
+        "enabled": true,
+        "show_interstitial": true,
+        "show_rewarded": false,
+        "frequency": 1
+      },
+      "game_over_continue": {
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true,
+        "frequency": 0
+      },
+      "back_to_home": {
+        "enabled": true,
+        "show_interstitial": true,
+        "show_rewarded": false,
+        "frequency": 0
+      },
+      "hint": {
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true,
+        "frequency": 0
+      },
+      "erase": {
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true,
+        "frequency": 1
+      }
+    }
   },
-  "update_config": {},
-  "admob_publisher_id": ""
+  "admob_publisher_id": "pub-3940256099942544"
 }
