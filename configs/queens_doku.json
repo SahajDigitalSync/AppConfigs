@@ -12,7 +12,7 @@
     ]
   },
   "app_urls": {
-    "privacy_policy": "https://yourcompany.com/privacy",
+    "privacy_policy": "https://www.axiallabs.tech/privacy-policy",
     "share_app_android": "https://play.google.com/store/apps/details?id=com.yourcompany.cowdoku",
     "share_app_ios": "https://apps.apple.com/app/id123456789"
   },
