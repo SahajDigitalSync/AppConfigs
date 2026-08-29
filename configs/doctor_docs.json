@@ -8,8 +8,131 @@
   },
   "app_urls": {
     "privacy_policy": "https://actual-innovation.com/privacy-policy",
+    "terms_of_service": "https://actual-innovation.com/terms-of-service",
     "share_app_android": "https://play.google.com/store/apps/details?id=com.doctordocs.pdfeditor",
     "share_app_ios": "https://apps.apple.com/in/app/doctordocs-pdf-editor-scanner/id6771757120"
+  },
+  "subscription_config": {
+    "enabled": true,
+    "show_subscriptions_android": true,
+    "show_subscriptions_ios": true,
+    "plans": {
+      "yearly": {
+        "android": {
+          "enabled": true,
+          "order": 1,
+          "is_default_selected": true,
+          "product_id": "doctordocs_sub_yearly",
+          "base_plan_id": "yearly-base-plan",
+          "title": "1 Year Access",
+          "subtitle": "Just $0.83 / month • Billed annually",
+          "badge": "BEST VALUE • 75% OFF",
+          "fallback_price": "$9.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 1,
+          "is_default_selected": true,
+          "product_id": "doctordocs_sub_yearly",
+          "title": "1 Year Access",
+          "subtitle": "Just $0.83 / month • Billed annually",
+          "badge": "BEST VALUE • 75% OFF",
+          "fallback_price": "$9.99"
+        }
+      },
+      "six_months": {
+        "android": {
+          "enabled": true,
+          "order": 2,
+          "is_default_selected": false,
+          "product_id": "doctordocs_sub_6months",
+          "base_plan_id": "6months-base",
+          "title": "6 Months Access",
+          "subtitle": "Just $1.33 / month • Billed 6 months",
+          "badge": "60% OFF",
+          "fallback_price": "$7.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 2,
+          "is_default_selected": false,
+          "product_id": "doctordocs_sub_6months",
+          "title": "6 Months Access",
+          "subtitle": "Just $1.33 / month • Billed 6 months",
+          "badge": "60% OFF",
+          "fallback_price": "$7.99"
+        }
+      },
+      "three_months": {
+        "android": {
+          "enabled": true,
+          "order": 3,
+          "is_default_selected": false,
+          "product_id": "doctordocs_sub_3months",
+          "base_plan_id": "3months-base",
+          "title": "3 Months Access",
+          "subtitle": "Just $1.66 / month • Billed 3 months",
+          "badge": "50% OFF",
+          "fallback_price": "$4.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 3,
+          "is_default_selected": false,
+          "product_id": "doctordocs_sub_3months",
+          "title": "3 Months Access",
+          "subtitle": "Just $1.66 / month • Billed 3 months",
+          "badge": "50% OFF",
+          "fallback_price": "$4.99"
+        }
+      },
+      "monthly": {
+        "android": {
+          "enabled": true,
+          "order": 4,
+          "is_default_selected": false,
+          "product_id": "doctordocs_sub_monthly",
+          "base_plan_id": "monthly-base",
+          "title": "1 Month Access",
+          "subtitle": "Full flexibility • Billed monthly",
+          "badge": "POPULAR",
+          "fallback_price": "$1.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 4,
+          "is_default_selected": false,
+          "product_id": "doctordocs_sub_monthly",
+          "title": "1 Month Access",
+          "subtitle": "Full flexibility • Billed monthly",
+          "badge": "POPULAR",
+          "fallback_price": "$1.99"
+        }
+      },
+      "weekly": {
+        "android": {
+          "enabled": true,
+          "order": 5,
+          "is_default_selected": false,
+          "product_id": "doctordocs_sub_weekly",
+          "base_plan_id": "weekly-base",
+          "title": "1 Week Access",
+          "subtitle": "Short-term access • Billed weekly",
+          "badge": null,
+          "fallback_price": "$0.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 5,
+          "is_default_selected": false,
+          "product_id": "doctordocs_sub_weekly",
+          "title": "1 Week Access",
+          "subtitle": "Short-term access • Billed weekly",
+          "badge": null,
+          "fallback_price": "$0.99"
+        }
+      }
+    }
   },
   "ads_config": {
     "show_ads": true,
