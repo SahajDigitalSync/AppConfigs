@@ -27,7 +27,7 @@
           "title": "1 Year Access",
           "subtitle": "Just $0.83 / month • Billed annually",
           "badge": "75% OFF",
-          "original_price": "$39.99",
+          "discount_percent": 75,
           "fallback_price": "$9.99"
         },
         "ios": {
@@ -38,7 +38,7 @@
           "title": "1 Year Access",
           "subtitle": "Just $0.83 / month • Billed annually",
           "badge": "75% OFF",
-          "original_price": "$39.99",
+          "discount_percent": 75,
           "fallback_price": "$9.99"
         }
       },
@@ -52,7 +52,7 @@
           "title": "6 Months Access",
           "subtitle": "Just $1.33 / month • Billed 6 months",
           "badge": "60% OFF",
-          "original_price": "$19.99",
+          "discount_percent": 60,
           "fallback_price": "$7.99"
         },
         "ios": {
@@ -63,7 +63,7 @@
           "title": "6 Months Access",
           "subtitle": "Just $1.33 / month • Billed 6 months",
           "badge": "60% OFF",
-          "original_price": "$19.99",
+          "discount_percent": 60,
           "fallback_price": "$7.99"
         }
       },
@@ -77,7 +77,7 @@
           "title": "3 Months Access",
           "subtitle": "Just $1.66 / month • Billed 3 months",
           "badge": "50% OFF",
-          "original_price": "$9.99",
+          "discount_percent": 50,
           "fallback_price": "$4.99"
         },
         "ios": {
@@ -88,7 +88,7 @@
           "title": "3 Months Access",
           "subtitle": "Just $1.66 / month • Billed 3 months",
           "badge": "50% OFF",
-          "original_price": "$9.99",
+          "discount_percent": 50,
           "fallback_price": "$4.99"
         }
       },
@@ -102,7 +102,7 @@
           "title": "1 Month Access",
           "subtitle": "Full flexibility • Billed monthly",
           "badge": "POPULAR",
-          "original_price": null,
+          "discount_percent": null,
           "fallback_price": "$1.99"
         },
         "ios": {
@@ -113,7 +113,7 @@
           "title": "1 Month Access",
           "subtitle": "Full flexibility • Billed monthly",
           "badge": "POPULAR",
-          "original_price": null,
+          "discount_percent": null,
           "fallback_price": "$1.99"
         }
       },
@@ -127,7 +127,7 @@
           "title": "1 Week Access",
           "subtitle": "Short-term access • Billed weekly",
           "badge": null,
-          "original_price": null,
+          "discount_percent": null,
           "fallback_price": "$0.99"
         },
         "ios": {
@@ -138,7 +138,7 @@
           "title": "1 Week Access",
           "subtitle": "Short-term access • Billed weekly",
           "badge": null,
-          "original_price": null,
+          "discount_percent": null,
           "fallback_price": "$0.99"
         }
       }
