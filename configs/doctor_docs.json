@@ -23,11 +23,11 @@
           "product_id": "com.doctordocs.pdfeditor.pro",
           "base_plan_id": "doctordocs-pdfeditor-pro-yearly",
           "title": "1 Year Access",
-          "subtitle": "Billed annually • Auto-renews",
+          "subtitle": "Just $0.83 / month • Billed annually",
           "badge": "BEST VALUE",
           "discount_percent": 75,
-          "original_price": "₹1,050.00",
-          "fallback_price": "₹700.00"
+          "original_price": "$39.99",
+          "fallback_price": "$9.99"
         },
         "ios": {
           "enabled": true,
@@ -35,11 +35,11 @@
           "is_default_selected": true,
           "product_id": "com.doctordocs.pdfeditor.pro.yearly",
           "title": "1 Year Access",
-          "subtitle": "Billed annually • Auto-renews",
+          "subtitle": "Just $0.83 / month • Billed annually",
           "badge": "BEST VALUE",
           "discount_percent": 75,
-          "original_price": "₹1,050.00",
-          "fallback_price": "₹700.00"
+          "original_price": "$39.99",
+          "fallback_price": "$9.99"
         }
       },
       "six_months": {
@@ -50,11 +50,11 @@
           "product_id": "com.doctordocs.pdfeditor.pro",
           "base_plan_id": "doctordocs-pdfeditor-pro-6month",
           "title": "6 Months Access",
-          "subtitle": "Billed every 6 months",
+          "subtitle": "Just $1.33 / month • Billed every 6 months",
           "badge": "60% OFF",
           "discount_percent": 60,
-          "original_price": "₹650.00",
-          "fallback_price": "₹450.00"
+          "original_price": "$19.99",
+          "fallback_price": "$7.99"
         },
         "ios": {
           "enabled": true,
@@ -62,11 +62,11 @@
           "is_default_selected": false,
           "product_id": "com.doctordocs.pdfeditor.pro.6months",
           "title": "6 Months Access",
-          "subtitle": "Billed every 6 months",
+          "subtitle": "Just $1.33 / month • Billed every 6 months",
           "badge": "60% OFF",
           "discount_percent": 60,
-          "original_price": "₹650.00",
-          "fallback_price": "₹450.00"
+          "original_price": "$19.99",
+          "fallback_price": "$7.99"
         }
       },
       "three_months": {
@@ -77,11 +77,11 @@
           "product_id": "com.doctordocs.pdfeditor.pro",
           "base_plan_id": "doctordocs-pdfeditor-pro-3month",
           "title": "3 Months Access",
-          "subtitle": "Billed every 3 months",
+          "subtitle": "Just $1.66 / month • Billed every 3 months",
           "badge": "50% OFF",
           "discount_percent": 50,
-          "original_price": "₹450.00",
-          "fallback_price": "₹280.00"
+          "original_price": "$9.99",
+          "fallback_price": "$4.99"
         },
         "ios": {
           "enabled": true,
@@ -89,11 +89,11 @@
           "is_default_selected": false,
           "product_id": "com.doctordocs.pdfeditor.pro.3months",
           "title": "3 Months Access",
-          "subtitle": "Billed every 3 months",
+          "subtitle": "Just $1.66 / month • Billed every 3 months",
           "badge": "50% OFF",
           "discount_percent": 50,
-          "original_price": "₹450.00",
-          "fallback_price": "₹280.00"
+          "original_price": "$9.99",
+          "fallback_price": "$4.99"
         }
       },
       "monthly": {
@@ -108,7 +108,7 @@
           "badge": "POPULAR",
           "discount_percent": 0,
           "original_price": null,
-          "fallback_price": "₹150.00"
+          "fallback_price": "$1.99"
         },
         "ios": {
           "enabled": true,
@@ -120,7 +120,7 @@
           "badge": "POPULAR",
           "discount_percent": 0,
           "original_price": null,
-          "fallback_price": "₹150.00"
+          "fallback_price": "$1.99"
         }
       },
       "weekly": {
@@ -135,7 +135,7 @@
           "badge": null,
           "discount_percent": 0,
           "original_price": null,
-          "fallback_price": "₹50.00"
+          "fallback_price": "$0.99"
         },
         "ios": {
           "enabled": true,
@@ -147,7 +147,7 @@
           "badge": null,
           "discount_percent": 0,
           "original_price": null,
-          "fallback_price": "₹50.00"
+          "fallback_price": "$0.99"
         }
       }
     }
