@@ -12,37 +12,34 @@
     "share_app_android": "https://play.google.com/store/apps/details?id=com.doctordocs.pdfeditor",
     "share_app_ios": "https://apps.apple.com/in/app/doctordocs-pdf-editor-scanner/id6771757120"
   },
-  "free_tier_config": {
-    "weekly_free_limit": 4
-  },
   "subscription_config": {
     "enabled": true,
-    "show_subscriptions_android": true,
-    "show_subscriptions_ios": true,
     "plans": {
       "yearly": {
         "android": {
           "enabled": true,
           "order": 1,
           "is_default_selected": true,
-          "product_id": "doctordocs_sub_yearly",
-          "base_plan_id": "yearly-base-plan",
+          "product_id": "com.doctordocs.pdfeditor.pro",
+          "base_plan_id": "doctordocs-pdfeditor-pro-yearly",
           "title": "1 Year Access",
-          "subtitle": "Just $0.83 / month • Billed annually",
-          "badge": "LIMITED TIME",
+          "subtitle": "Billed annually • Auto-renews",
+          "badge": "BEST VALUE",
           "discount_percent": 75,
-          "fallback_price": "$9.99"
+          "original_price": "₹1,050.00",
+          "fallback_price": "₹700.00"
         },
         "ios": {
           "enabled": true,
           "order": 1,
           "is_default_selected": true,
-          "product_id": "doctordocs_sub_yearly",
+          "product_id": "com.doctordocs.pdfeditor.pro.yearly",
           "title": "1 Year Access",
-          "subtitle": "Just $0.83 / month • Billed annually",
-          "badge": "LIMITED TIME",
+          "subtitle": "Billed annually • Auto-renews",
+          "badge": "BEST VALUE",
           "discount_percent": 75,
-          "fallback_price": "$9.99"
+          "original_price": "₹1,050.00",
+          "fallback_price": "₹700.00"
         }
       },
       "six_months": {
@@ -50,24 +47,26 @@
           "enabled": true,
           "order": 2,
           "is_default_selected": false,
-          "product_id": "doctordocs_sub_6months",
-          "base_plan_id": "6months-base",
+          "product_id": "com.doctordocs.pdfeditor.pro",
+          "base_plan_id": "doctordocs-pdfeditor-pro-6month",
           "title": "6 Months Access",
-          "subtitle": "Just $1.33 / month • Billed 6 months",
+          "subtitle": "Billed every 6 months",
           "badge": "60% OFF",
           "discount_percent": 60,
-          "fallback_price": "$7.99"
+          "original_price": "₹650.00",
+          "fallback_price": "₹450.00"
         },
         "ios": {
           "enabled": true,
           "order": 2,
           "is_default_selected": false,
-          "product_id": "doctordocs_sub_6months",
+          "product_id": "com.doctordocs.pdfeditor.pro.6months",
           "title": "6 Months Access",
-          "subtitle": "Just $1.33 / month • Billed 6 months",
+          "subtitle": "Billed every 6 months",
           "badge": "60% OFF",
           "discount_percent": 60,
-          "fallback_price": "$7.99"
+          "original_price": "₹650.00",
+          "fallback_price": "₹450.00"
         }
       },
       "three_months": {
@@ -75,24 +74,26 @@
           "enabled": true,
           "order": 3,
           "is_default_selected": false,
-          "product_id": "doctordocs_sub_3months",
-          "base_plan_id": "3months-base",
+          "product_id": "com.doctordocs.pdfeditor.pro",
+          "base_plan_id": "doctordocs-pdfeditor-pro-3month",
           "title": "3 Months Access",
-          "subtitle": "Just $1.66 / month • Billed 3 months",
+          "subtitle": "Billed every 3 months",
           "badge": "50% OFF",
           "discount_percent": 50,
-          "fallback_price": "$4.99"
+          "original_price": "₹450.00",
+          "fallback_price": "₹280.00"
         },
         "ios": {
           "enabled": true,
           "order": 3,
           "is_default_selected": false,
-          "product_id": "doctordocs_sub_3months",
+          "product_id": "com.doctordocs.pdfeditor.pro.3months",
           "title": "3 Months Access",
-          "subtitle": "Just $1.66 / month • Billed 3 months",
+          "subtitle": "Billed every 3 months",
           "badge": "50% OFF",
           "discount_percent": 50,
-          "fallback_price": "$4.99"
+          "original_price": "₹450.00",
+          "fallback_price": "₹280.00"
         }
       },
       "monthly": {
@@ -100,24 +101,26 @@
           "enabled": true,
           "order": 4,
           "is_default_selected": false,
-          "product_id": "doctordocs_sub_monthly",
-          "base_plan_id": "monthly-base",
+          "product_id": "com.doctordocs.pdfeditor.pro",
+          "base_plan_id": "doctordocs-pdfeditor-pro-monthly",
           "title": "1 Month Access",
-          "subtitle": "Full flexibility • Billed monthly",
+          "subtitle": "Billed monthly • Auto-renews",
           "badge": "POPULAR",
-          "discount_percent": null,
-          "fallback_price": "$1.99"
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "₹150.00"
         },
         "ios": {
           "enabled": true,
           "order": 4,
           "is_default_selected": false,
-          "product_id": "doctordocs_sub_monthly",
+          "product_id": "com.doctordocs.pdfeditor.pro.monthly",
           "title": "1 Month Access",
-          "subtitle": "Full flexibility • Billed monthly",
+          "subtitle": "Billed monthly • Auto-renews",
           "badge": "POPULAR",
-          "discount_percent": null,
-          "fallback_price": "$1.99"
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "₹150.00"
         }
       },
       "weekly": {
@@ -125,32 +128,44 @@
           "enabled": true,
           "order": 5,
           "is_default_selected": false,
-          "product_id": "doctordocs_sub_weekly",
-          "base_plan_id": "weekly-base",
+          "product_id": "com.doctordocs.pdfeditor.pro",
+          "base_plan_id": "doctordocs-pdfeditor-pro-weekly",
           "title": "1 Week Access",
-          "subtitle": "Short-term access • Billed weekly",
+          "subtitle": "Billed weekly",
           "badge": null,
-          "discount_percent": null,
-          "fallback_price": "$0.99"
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "₹50.00"
         },
         "ios": {
           "enabled": true,
           "order": 5,
           "is_default_selected": false,
-          "product_id": "doctordocs_sub_weekly",
+          "product_id": "com.doctordocs.pdfeditor.pro.weekly",
           "title": "1 Week Access",
-          "subtitle": "Short-term access • Billed weekly",
+          "subtitle": "Billed weekly",
           "badge": null,
-          "discount_percent": null,
-          "fallback_price": "$0.99"
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "₹50.00"
         }
       }
     }
   },
   "ads_config": {
-    "show_ads": true,
-    "event_details": {
-      "name": "completion",
+    "general": {
+      "grace_period_days": 7
+    },
+    "free_tier_config": {
+      "enabled": true,
+      "weekly_limit": 4,
+      "sheet_title": "Weekly Limit Reached",
+      "sheet_subtitle": "You have used your 4 free actions for this week. Upgrade to Pro for unlimited exports or watch an ad to get 1 extra action.",
+      "allow_rewarded_unlock": true,
+      "reward_bonus_uses": 1
+    },
+    "interval_counts": {
+      "type": "count",
       "count": "3"
     },
     "show_ads_android": true,
