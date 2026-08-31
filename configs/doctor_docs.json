@@ -12,6 +12,9 @@
     "share_app_android": "https://play.google.com/store/apps/details?id=com.doctordocs.pdfeditor",
     "share_app_ios": "https://apps.apple.com/in/app/doctordocs-pdf-editor-scanner/id6771757120"
   },
+  "free_tier_config": {
+    "weekly_free_limit": 4
+  },
   "subscription_config": {
     "enabled": true,
     "show_subscriptions_android": true,
@@ -26,7 +29,7 @@
           "base_plan_id": "yearly-base-plan",
           "title": "1 Year Access",
           "subtitle": "Just $0.83 / month • Billed annually",
-          "badge": "75% OFF",
+          "badge": "LIMITED TIME",
           "discount_percent": 75,
           "fallback_price": "$9.99"
         },
@@ -37,7 +40,7 @@
           "product_id": "doctordocs_sub_yearly",
           "title": "1 Year Access",
           "subtitle": "Just $0.83 / month • Billed annually",
-          "badge": "75% OFF",
+          "badge": "LIMITED TIME",
           "discount_percent": 75,
           "fallback_price": "$9.99"
         }
