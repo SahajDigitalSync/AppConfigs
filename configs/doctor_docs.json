@@ -153,6 +153,7 @@
     }
   },
   "ads_config": {
+    "show_ads": false,
     "general": {
       "grace_period_days": 7
     },
