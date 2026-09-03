@@ -184,15 +184,15 @@
       "ironsource": {
         "android": {
           "app_key": "27c682f5d",
-          "banner": "25227489",
-          "interstitial": "25227488",
-          "rewarded": "25227487"
+          "banner": "Banner",
+          "interstitial": "Interstitial",
+          "rewarded": "Rewarded Video"
         },
         "ios": {
           "app_key": "27b502b6d",
-          "banner": "25227469",
-          "interstitial": "25227468",
-          "rewarded": "25227467"
+          "banner": "Banner",
+          "interstitial": "Interstitial",
+          "rewarded": "Rewarded_video"
         }
       }
     },
