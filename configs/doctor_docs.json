@@ -184,15 +184,15 @@
       "ironsource": {
         "android": {
           "app_key": "27c682f5d",
-          "banner": "Banner",
-          "interstitial": "Interstitial",
-          "rewarded": "Rewarded Video"
+          "banner": "q0lhdb8bucge5vqv",
+          "interstitial": "zfs39g16ipuqqul0",
+          "rewarded": "xz3pr40ggxh0kjwb"
         },
         "ios": {
           "app_key": "27b502b6d",
-          "banner": "Banner",
-          "interstitial": "Interstitial",
-          "rewarded": "Rewarded_video"
+          "banner": "hmpy0lyulthc4na9",
+          "interstitial": "f9wvml7m8zbnnmjc",
+          "rewarded": "d9v59r5tvzqti6w4"
         }
       }
     },
