@@ -153,7 +153,49 @@
     }
   },
   "ads_config": {
-    "show_ads": false,
+    "show_ads": true,
+    "show_ads_android": true,
+    "show_ads_ios": true,
+    "network_config": {
+      "active_network": "unity",
+      "enable_fallback": true,
+      "fallback_order": [
+        "unity",
+        "ironsource"
+      ]
+    },
+    "network_keys": {
+      "unity": {
+        "android": {
+          "game_id": "6099387",
+          "test_mode": false,
+          "banner": "Banner_Android",
+          "interstitial": "Interstitial_Android",
+          "rewarded": "Rewarded_Android"
+        },
+        "ios": {
+          "game_id": "6099386",
+          "test_mode": false,
+          "banner": "Banner_iOS",
+          "interstitial": "Interstitial_iOS",
+          "rewarded": "Rewarded_iOS"
+        }
+      },
+      "ironsource": {
+        "android": {
+          "app_key": "27c682f5d",
+          "banner": "25227489",
+          "interstitial": "25227488",
+          "rewarded": "25227487"
+        },
+        "ios": {
+          "app_key": "27b502b6d",
+          "banner": "25227469",
+          "interstitial": "25227468",
+          "rewarded": "25227467"
+        }
+      }
+    },
     "general": {
       "grace_period_days": 7
     },
@@ -169,8 +211,6 @@
       "type": "count",
       "count": "3"
     },
-    "show_ads_android": true,
-    "show_ads_ios": true,
     "ad_ids": {
       "android": {
         "banner": "ca-app-pub-9758638529065843/7596604391",
