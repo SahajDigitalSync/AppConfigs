@@ -157,11 +157,11 @@
     "show_ads_android": true,
     "show_ads_ios": true,
     "network_config": {
-      "active_network": "ironsource",
+      "active_network": "unity",
       "enable_fallback": true,
       "fallback_order": [
-        "ironsource",
-        "unity"
+        "unity",
+        "ironsource"
       ]
     },
     "network_keys": {
