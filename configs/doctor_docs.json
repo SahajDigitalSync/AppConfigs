@@ -209,7 +209,7 @@
     },
     "interval_counts": {
       "type": "count",
-      "count": "3"
+      "count": "5"
     },
     "ad_ids": {
       "android": {
