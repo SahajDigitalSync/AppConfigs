@@ -201,8 +201,8 @@
     },
     "free_tier_config": {
       "enabled": true,
-      "daily_limit": 2,
-      "sheet_title": "Weekly Limit Reached",
+      "daily_limit": 4,
+      "sheet_title": "Daily Limit Reached",
       "sheet_subtitle": "You have used your 4 free actions for this week. Upgrade to Pro for unlimited exports or watch an ad to get 1 extra action.",
       "allow_rewarded_unlock": true,
       "reward_bonus_uses": 1
