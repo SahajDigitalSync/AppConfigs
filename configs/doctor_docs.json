@@ -393,6 +393,12 @@
           "show_interstitial": false,
           "show_rewarded": true,
           "frequency": 1
+        },
+        "crop_pdf_ad": {
+          "enabled": true,
+          "show_rewarded": true,
+          "show_interstitial": false,
+          "frequency": 1
         }
       },
       "app_open": {
