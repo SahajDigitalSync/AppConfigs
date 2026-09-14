@@ -14,6 +14,8 @@
   },
   "subscription_config": {
     "enabled": true,
+    "show_subscriptions_android": true,
+    "show_subscriptions_ios": true,
     "plans": {
       "yearly": {
         "android": {
@@ -104,11 +106,11 @@
           "product_id": "depthx_sub_monthly",
           "base_plan_id": "monthly-base",
           "title": "1 Month Access",
-          "subtitle": "Billed monthly • Auto-renews",
-          "badge": "POPULAR",
+          "subtitle": "Billed monthly",
+          "badge": null,
           "discount_percent": 0,
           "original_price": null,
-          "fallback_price": "$1.99"
+          "fallback_price": "$2.99"
         },
         "ios": {
           "enabled": true,
@@ -116,11 +118,11 @@
           "is_default_selected": false,
           "product_id": "depthx_sub_monthly",
           "title": "1 Month Access",
-          "subtitle": "Billed monthly • Auto-renews",
-          "badge": "POPULAR",
+          "subtitle": "Billed monthly",
+          "badge": null,
           "discount_percent": 0,
           "original_price": null,
-          "fallback_price": "$1.99"
+          "fallback_price": "$2.99"
         }
       },
       "weekly": {
@@ -156,6 +158,10 @@
     "show_ads": true,
     "show_ads_android": true,
     "show_ads_ios": true,
+    "install_grace_days": 7,
+    "general": {
+      "grace_period_days": 7
+    },
     "network_config": {
       "active_network": "admob",
       "enable_fallback": false,
@@ -203,9 +209,6 @@
         }
       }
     },
-    "general": {
-      "grace_period_days": 7
-    },
     "free_tier_config": {
       "enabled": true,
       "daily_limit": 5,
@@ -226,7 +229,7 @@
         "native": "ca-app-pub-3940256099942544/2247696110",
         "native_image": "ca-app-pub-3940256099942544/2247696110",
         "native_video": "ca-app-pub-3940256099942544/1044960115",
-        "app_open": "ca-app-pub-3940256099942544/9257395921"
+        "app_open": "ca-app-pub-3940256099942544/9257390708"
       },
       "ios": {
         "banner": "ca-app-pub-3940256099942544/2934735716",
@@ -241,57 +244,39 @@
     "placements": {
       "home_screen": {
         "enabled": true,
-        "banner": {
-          "enabled": true,
-          "toggle_duration": 20
-        },
-        "native_ad": {
-          "enabled": true
-        }
-      },
-      "preview_screen": {
-        "enabled": true,
-        "banner": {
-          "enabled": true,
-          "toggle_duration": 20
-        },
-        "set_wallpaper_ad": {
-          "enabled": true,
-          "show_interstitial": true,
-          "show_rewarded": false,
-          "frequency": 1
-        },
-        "download_ad": {
-          "enabled": true,
-          "show_interstitial": true,
-          "show_rewarded": false,
-          "frequency": 1
-        }
-      },
-      "animation_style_screen": {
-        "enabled": true,
-        "apply_animation_ad": {
-          "enabled": true,
-          "show_interstitial": true,
-          "show_rewarded": false,
-          "frequency": 1
-        }
+        "show_interstitial": false,
+        "show_rewarded": false,
+        "frequency": 1
       },
       "gallery_grid": {
         "enabled": true,
-        "native_ad": {
-          "enabled": true,
-          "interval": 6
-        }
+        "show_interstitial": false,
+        "show_rewarded": false,
+        "frequency": 4
       },
-      "share_ad": {
+      "preview_screen": {
+        "enabled": true,
+        "show_interstitial": true,
+        "show_rewarded": false,
+        "frequency": 3
+      },
+      "animation_style_screen": {
+        "enabled": true,
+        "show_interstitial": true,
+        "show_rewarded": false,
+        "frequency": 2
+      },
+      "wallpaper_apply": {
         "enabled": true,
         "show_interstitial": true,
         "show_rewarded": false,
         "frequency": 1
       },
-      "app_open": {
-        "enabled": false
+      "share_ad": {
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true,
+        "frequency": 1
       }
     }
   }
