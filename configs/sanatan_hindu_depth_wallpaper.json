@@ -1,16 +1,298 @@
 {
-  "ad_config": {
-    "show_ads": false,
-    "ad_ids": {
-      "android": {
-        "admob": {}
+  "update_config": {
+    "latest_version": "1.0.0",
+    "min_required_version": "1.0.0",
+    "store_url_android": "https://play.google.com/store/apps/details?id=com.depthx.wallpaper",
+    "store_url_ios": "https://apps.apple.com/app/id6771757120",
+    "update_message": "Exciting new depth wallpapers, clock styles, and animations available!"
+  },
+  "app_urls": {
+    "privacy_policy": "https://actual-innovation.com/privacy-policy",
+    "terms_of_service": "https://actual-innovation.com/terms-of-service",
+    "share_app_android": "https://play.google.com/store/apps/details?id=com.depthx.wallpaper",
+    "share_app_ios": "https://apps.apple.com/app/id6771757120"
+  },
+  "subscription_config": {
+    "enabled": true,
+    "plans": {
+      "yearly": {
+        "android": {
+          "enabled": true,
+          "order": 1,
+          "is_default_selected": true,
+          "product_id": "depthx_sub_yearly",
+          "base_plan_id": "yearly-base",
+          "title": "1 Year Access",
+          "subtitle": "Just $0.83 / month • Billed annually",
+          "badge": "BEST VALUE",
+          "discount_percent": 75,
+          "original_price": "$39.99",
+          "fallback_price": "$9.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 1,
+          "is_default_selected": true,
+          "product_id": "depthx_sub_yearly",
+          "title": "1 Year Access",
+          "subtitle": "Just $0.83 / month • Billed annually",
+          "badge": "BEST VALUE",
+          "discount_percent": 75,
+          "original_price": "$39.99",
+          "fallback_price": "$9.99"
+        }
       },
-      "ios": {
-        "admob": {}
+      "six_months": {
+        "android": {
+          "enabled": true,
+          "order": 2,
+          "is_default_selected": false,
+          "product_id": "depthx_sub_6months",
+          "base_plan_id": "6months-base",
+          "title": "6 Months Access",
+          "subtitle": "Just $1.33 / month • Billed every 6 months",
+          "badge": "60% OFF",
+          "discount_percent": 60,
+          "original_price": "$19.99",
+          "fallback_price": "$7.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 2,
+          "is_default_selected": false,
+          "product_id": "depthx_sub_6months",
+          "title": "6 Months Access",
+          "subtitle": "Just $1.33 / month • Billed every 6 months",
+          "badge": "60% OFF",
+          "discount_percent": 60,
+          "original_price": "$19.99",
+          "fallback_price": "$7.99"
+        }
+      },
+      "three_months": {
+        "android": {
+          "enabled": true,
+          "order": 3,
+          "is_default_selected": false,
+          "product_id": "depthx_sub_3months",
+          "base_plan_id": "3months-base",
+          "title": "3 Months Access",
+          "subtitle": "Just $1.66 / month • Billed every 3 months",
+          "badge": "50% OFF",
+          "discount_percent": 50,
+          "original_price": "$9.99",
+          "fallback_price": "$4.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 3,
+          "is_default_selected": false,
+          "product_id": "depthx_sub_3months",
+          "title": "3 Months Access",
+          "subtitle": "Just $1.66 / month • Billed every 3 months",
+          "badge": "50% OFF",
+          "discount_percent": 50,
+          "original_price": "$9.99",
+          "fallback_price": "$4.99"
+        }
+      },
+      "monthly": {
+        "android": {
+          "enabled": true,
+          "order": 4,
+          "is_default_selected": false,
+          "product_id": "depthx_sub_monthly",
+          "base_plan_id": "monthly-base",
+          "title": "1 Month Access",
+          "subtitle": "Billed monthly • Auto-renews",
+          "badge": "POPULAR",
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "$1.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 4,
+          "is_default_selected": false,
+          "product_id": "depthx_sub_monthly",
+          "title": "1 Month Access",
+          "subtitle": "Billed monthly • Auto-renews",
+          "badge": "POPULAR",
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "$1.99"
+        }
+      },
+      "weekly": {
+        "android": {
+          "enabled": true,
+          "order": 5,
+          "is_default_selected": false,
+          "product_id": "depthx_sub_weekly",
+          "base_plan_id": "weekly-base",
+          "title": "1 Week Access",
+          "subtitle": "Billed weekly",
+          "badge": null,
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "$0.99"
+        },
+        "ios": {
+          "enabled": true,
+          "order": 5,
+          "is_default_selected": false,
+          "product_id": "depthx_sub_weekly",
+          "title": "1 Week Access",
+          "subtitle": "Billed weekly",
+          "badge": null,
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "$0.99"
+        }
+      }
+    }
+  },
+  "ads_config": {
+    "show_ads": true,
+    "show_ads_android": true,
+    "show_ads_ios": true,
+    "network_config": {
+      "active_network": "admob",
+      "enable_fallback": false,
+      "fallback_order": [
+        "admob"
+      ]
+    },
+    "network_keys": {
+      "admob": {
+        "android": {
+          "app_id": "ca-app-pub-3940256099942544~3347511713"
+        },
+        "ios": {
+          "app_id": "ca-app-pub-3940256099942544~1458002511"
+        }
+      },
+      "unity": {
+        "android": {
+          "game_id": "6099387",
+          "test_mode": true,
+          "banner": "Banner_Android",
+          "interstitial": "Interstitial_Android",
+          "rewarded": "Rewarded_Android"
+        },
+        "ios": {
+          "game_id": "6099386",
+          "test_mode": true,
+          "banner": "Banner_iOS",
+          "interstitial": "Interstitial_iOS",
+          "rewarded": "Rewarded_iOS"
+        }
+      },
+      "ironsource": {
+        "android": {
+          "app_key": "27c682f5d",
+          "banner": "q0lhdb8bucge5vqv",
+          "interstitial": "zfs39g16ipuqqul0",
+          "rewarded": "xz3pr40ggxh0kjwb"
+        },
+        "ios": {
+          "app_key": "27b502b6d",
+          "banner": "hmpy0lyulthc4na9",
+          "interstitial": "f9wvml7m8zbnnmjc",
+          "rewarded": "d9v59r5tvzqti6w4"
+        }
       }
     },
-    "settings": {}
-  },
-  "update_config": {},
-  "admob_publisher_id": ""
+    "general": {
+      "grace_period_days": 7
+    },
+    "free_tier_config": {
+      "enabled": true,
+      "daily_limit": 5,
+      "sheet_title": "Daily Limit Reached",
+      "sheet_subtitle": "You have used your 5 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
+      "allow_rewarded_unlock": true,
+      "reward_bonus_uses": 1
+    },
+    "interval_counts": {
+      "type": "count",
+      "count": "3"
+    },
+    "ad_ids": {
+      "android": {
+        "banner": "ca-app-pub-3940256099942544/6300978111",
+        "interstitial": "ca-app-pub-3940256099942544/1033173712",
+        "rewarded": "ca-app-pub-3940256099942544/5224354917",
+        "native": "ca-app-pub-3940256099942544/2247696110",
+        "native_image": "ca-app-pub-3940256099942544/2247696110",
+        "native_video": "ca-app-pub-3940256099942544/1044960115",
+        "app_open": "ca-app-pub-3940256099942544/9257395921"
+      },
+      "ios": {
+        "banner": "ca-app-pub-3940256099942544/2934735716",
+        "interstitial": "ca-app-pub-3940256099942544/4411468910",
+        "rewarded": "ca-app-pub-3940256099942544/1712485313",
+        "native": "ca-app-pub-3940256099942544/3986624511",
+        "native_image": "ca-app-pub-3940256099942544/3986624511",
+        "native_video": "ca-app-pub-3940256099942544/2521693316",
+        "app_open": "ca-app-pub-3940256099942544/5575463023"
+      }
+    },
+    "placements": {
+      "home_screen": {
+        "enabled": true,
+        "banner": {
+          "enabled": true,
+          "toggle_duration": 20
+        },
+        "native_ad": {
+          "enabled": true
+        }
+      },
+      "preview_screen": {
+        "enabled": true,
+        "banner": {
+          "enabled": true,
+          "toggle_duration": 20
+        },
+        "set_wallpaper_ad": {
+          "enabled": true,
+          "show_interstitial": true,
+          "show_rewarded": false,
+          "frequency": 1
+        },
+        "download_ad": {
+          "enabled": true,
+          "show_interstitial": true,
+          "show_rewarded": false,
+          "frequency": 1
+        }
+      },
+      "animation_style_screen": {
+        "enabled": true,
+        "apply_animation_ad": {
+          "enabled": true,
+          "show_interstitial": true,
+          "show_rewarded": false,
+          "frequency": 1
+        }
+      },
+      "gallery_grid": {
+        "enabled": true,
+        "native_ad": {
+          "enabled": true,
+          "interval": 6
+        }
+      },
+      "share_ad": {
+        "enabled": true,
+        "show_interstitial": true,
+        "show_rewarded": false,
+        "frequency": 1
+      },
+      "app_open": {
+        "enabled": false
+      }
+    }
+  }
 }
