@@ -249,6 +249,12 @@
       },
       "preview_screen": {
         "enabled": true,
+        "open_wallpaper_ad": {
+          "enabled": true,
+          "show_interstitial": true,
+          "show_rewarded": false,
+          "frequency": 2
+        },
         "set_wallpaper_ad": {
           "enabled": true,
           "show_interstitial": false,
