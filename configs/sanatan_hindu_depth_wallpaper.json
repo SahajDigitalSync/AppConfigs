@@ -246,6 +246,15 @@
             "interval": 2
           }
         }
+      },
+      "preview_screen": {
+        "enabled": true,
+        "set_wallpaper_ad": {
+          "enabled": true,
+          "show_interstitial": false,
+          "show_rewarded": true,
+          "frequency": 1
+        }
       }
     }
   }
