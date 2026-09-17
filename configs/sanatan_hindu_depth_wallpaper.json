@@ -14,142 +14,86 @@
   },
   "subscription_config": {
     "enabled": true,
-    "show_subscriptions_android": true,
-    "show_subscriptions_ios": true,
     "plans": {
-      "yearly": {
+      "weekly": {
         "android": {
           "enabled": true,
           "order": 1,
-          "is_default_selected": true,
-          "product_id": "depthx_sub_yearly",
-          "base_plan_id": "yearly-base",
-          "title": "1 Year Access",
-          "subtitle": "Just $0.83 / month • Billed annually",
-          "badge": "BEST VALUE",
-          "discount_percent": 75,
-          "original_price": "$39.99",
-          "fallback_price": "$9.99"
+          "is_default_selected": false,
+          "product_id": "weekly_subscription_depth",
+          "base_plan_id": "p1w",
+          "title": "Weekly Access",
+          "subtitle": "Billed weekly, cancel anytime",
+          "badge": null,
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "$2.99"
         },
         "ios": {
           "enabled": true,
           "order": 1,
-          "is_default_selected": true,
-          "product_id": "depthx_sub_yearly",
-          "title": "1 Year Access",
-          "subtitle": "Just $0.83 / month • Billed annually",
-          "badge": "BEST VALUE",
-          "discount_percent": 75,
-          "original_price": "$39.99",
-          "fallback_price": "$9.99"
-        }
-      },
-      "six_months": {
-        "android": {
-          "enabled": true,
-          "order": 2,
           "is_default_selected": false,
-          "product_id": "depthx_sub_6months",
-          "base_plan_id": "6months-base",
-          "title": "6 Months Access",
-          "subtitle": "Just $1.33 / month • Billed every 6 months",
-          "badge": "60% OFF",
-          "discount_percent": 60,
-          "original_price": "$19.99",
-          "fallback_price": "$7.99"
-        },
-        "ios": {
-          "enabled": true,
-          "order": 2,
-          "is_default_selected": false,
-          "product_id": "depthx_sub_6months",
-          "title": "6 Months Access",
-          "subtitle": "Just $1.33 / month • Billed every 6 months",
-          "badge": "60% OFF",
-          "discount_percent": 60,
-          "original_price": "$19.99",
-          "fallback_price": "$7.99"
-        }
-      },
-      "three_months": {
-        "android": {
-          "enabled": true,
-          "order": 3,
-          "is_default_selected": false,
-          "product_id": "depthx_sub_3months",
-          "base_plan_id": "3months-base",
-          "title": "3 Months Access",
-          "subtitle": "Just $1.66 / month • Billed every 3 months",
-          "badge": "50% OFF",
-          "discount_percent": 50,
-          "original_price": "$9.99",
-          "fallback_price": "$4.99"
-        },
-        "ios": {
-          "enabled": true,
-          "order": 3,
-          "is_default_selected": false,
-          "product_id": "depthx_sub_3months",
-          "title": "3 Months Access",
-          "subtitle": "Just $1.66 / month • Billed every 3 months",
-          "badge": "50% OFF",
-          "discount_percent": 50,
-          "original_price": "$9.99",
-          "fallback_price": "$4.99"
+          "product_id": "com.depthx.wallpaper.weekly",
+          "title": "Weekly Access",
+          "subtitle": "Billed weekly, cancel anytime",
+          "badge": null,
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "$2.99"
         }
       },
       "monthly": {
         "android": {
           "enabled": true,
-          "order": 4,
+          "order": 2,
           "is_default_selected": false,
-          "product_id": "depthx_sub_monthly",
-          "base_plan_id": "monthly-base",
-          "title": "1 Month Access",
-          "subtitle": "Billed monthly",
+          "product_id": "monthly_subscription_depth",
+          "base_plan_id": "p1m",
+          "title": "Monthly Access",
+          "subtitle": "Billed monthly, cancel anytime",
           "badge": null,
-          "discount_percent": 0,
-          "original_price": null,
-          "fallback_price": "$2.99"
+          "discount_percent": 25,
+          "original_price": "$11.96",
+          "fallback_price": "$8.99"
         },
         "ios": {
           "enabled": true,
-          "order": 4,
+          "order": 2,
           "is_default_selected": false,
-          "product_id": "depthx_sub_monthly",
-          "title": "1 Month Access",
-          "subtitle": "Billed monthly",
+          "product_id": "com.depthx.wallpaper.monthly",
+          "title": "Monthly Access",
+          "subtitle": "Billed monthly, cancel anytime",
           "badge": null,
-          "discount_percent": 0,
-          "original_price": null,
-          "fallback_price": "$2.99"
+          "discount_percent": 25,
+          "original_price": "$11.96",
+          "fallback_price": "$8.99"
         }
       },
-      "weekly": {
+      "yearly": {
         "android": {
           "enabled": true,
-          "order": 5,
-          "is_default_selected": false,
-          "product_id": "depthx_sub_weekly",
-          "base_plan_id": "weekly-base",
-          "title": "1 Week Access",
-          "subtitle": "Billed weekly",
-          "badge": null,
-          "discount_percent": 0,
-          "original_price": null,
-          "fallback_price": "$0.99"
+          "order": 3,
+          "is_default_selected": true,
+          "product_id": "yearly_subscription_depth",
+          "base_plan_id": "p1y",
+          "title": "Annual Access",
+          "subtitle": "Billed annually, best value",
+          "badge": "BEST VALUE",
+          "discount_percent": 60,
+          "original_price": "$155.48",
+          "fallback_price": "$29.99"
         },
         "ios": {
           "enabled": true,
-          "order": 5,
-          "is_default_selected": false,
-          "product_id": "depthx_sub_weekly",
-          "title": "1 Week Access",
-          "subtitle": "Billed weekly",
-          "badge": null,
-          "discount_percent": 0,
-          "original_price": null,
-          "fallback_price": "$0.99"
+          "order": 3,
+          "is_default_selected": true,
+          "product_id": "com.depthx.wallpaper.yearly",
+          "title": "Annual Access",
+          "subtitle": "Billed annually, best value",
+          "badge": "BEST VALUE",
+          "discount_percent": 60,
+          "original_price": "$155.48",
+          "fallback_price": "$29.99"
         }
       }
     }
@@ -158,15 +102,13 @@
     "show_ads": true,
     "show_ads_android": true,
     "show_ads_ios": true,
-    "install_grace_days": 7,
-    "general": {
-      "grace_period_days": 7
-    },
     "network_config": {
       "active_network": "admob",
       "enable_fallback": false,
       "fallback_order": [
-        "admob"
+        "admob",
+        "unity",
+        "ironsource"
       ]
     },
     "network_keys": {
@@ -181,33 +123,24 @@
       "unity": {
         "android": {
           "game_id": "6099387",
-          "test_mode": true,
-          "banner": "Banner_Android",
-          "interstitial": "Interstitial_Android",
-          "rewarded": "Rewarded_Android"
+          "test_mode": true
         },
         "ios": {
           "game_id": "6099386",
-          "test_mode": true,
-          "banner": "Banner_iOS",
-          "interstitial": "Interstitial_iOS",
-          "rewarded": "Rewarded_iOS"
+          "test_mode": true
         }
       },
       "ironsource": {
         "android": {
-          "app_key": "27c682f5d",
-          "banner": "q0lhdb8bucge5vqv",
-          "interstitial": "zfs39g16ipuqqul0",
-          "rewarded": "xz3pr40ggxh0kjwb"
+          "app_key": "27c682f5d"
         },
         "ios": {
-          "app_key": "27b502b6d",
-          "banner": "hmpy0lyulthc4na9",
-          "interstitial": "f9wvml7m8zbnnmjc",
-          "rewarded": "d9v59r5tvzqti6w4"
+          "app_key": "27b502b6d"
         }
       }
+    },
+    "general": {
+      "grace_period_days": 7
     },
     "free_tier_config": {
       "enabled": true,
@@ -229,7 +162,7 @@
         "native": "ca-app-pub-3940256099942544/2247696110",
         "native_image": "ca-app-pub-3940256099942544/2247696110",
         "native_video": "ca-app-pub-3940256099942544/1044960115",
-        "app_open": "ca-app-pub-3940256099942544/9257390708"
+        "app_open": "ca-app-pub-3940256099942544/9257395921"
       },
       "ios": {
         "banner": "ca-app-pub-3940256099942544/2934735716",
@@ -242,41 +175,15 @@
       }
     },
     "placements": {
-      "home_screen": {
+      "collection_screen": {
         "enabled": true,
-        "show_interstitial": false,
-        "show_rewarded": false,
-        "frequency": 1
-      },
-      "gallery_grid": {
-        "enabled": true,
-        "show_interstitial": false,
-        "show_rewarded": false,
-        "frequency": 4
-      },
-      "preview_screen": {
-        "enabled": true,
-        "show_interstitial": true,
-        "show_rewarded": false,
-        "frequency": 3
-      },
-      "animation_style_screen": {
-        "enabled": true,
-        "show_interstitial": true,
-        "show_rewarded": false,
-        "frequency": 2
-      },
-      "wallpaper_apply": {
-        "enabled": true,
-        "show_interstitial": true,
-        "show_rewarded": false,
-        "frequency": 1
-      },
-      "share_ad": {
-        "enabled": true,
-        "show_interstitial": false,
-        "show_rewarded": true,
-        "frequency": 1
+        "banner": {
+          "enabled": true
+        },
+        "native_ad": {
+          "enabled": true,
+          "interval": 1
+        }
       }
     }
   }
