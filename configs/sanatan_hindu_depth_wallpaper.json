@@ -247,6 +247,20 @@
           }
         }
       },
+      "explore_screen": {
+        "enabled": true,
+        "native_ad": {
+          "enabled": true,
+          "interval": 2
+        }
+      },
+      "favorites_screen": {
+        "enabled": true,
+        "native_ad": {
+          "enabled": true,
+          "interval": 2
+        }
+      },
       "preview_screen": {
         "enabled": true,
         "open_wallpaper_ad": {
