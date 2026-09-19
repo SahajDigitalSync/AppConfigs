@@ -2,14 +2,14 @@
   "update_config": {
     "latest_version": "1.0.0",
     "min_required_version": "1.0.0",
-    "store_url_android": "https://play.google.com/store/apps/details?id=com.depthx.wallpaper",
+    "store_url_android": "https://play.google.com/store/apps/details?id=com.sanatan.hindu.depth.wallpaper",
     "store_url_ios": "https://apps.apple.com/app/id6771757120",
     "update_message": "Exciting new depth wallpapers and styles available!"
   },
   "app_urls": {
-    "privacy_policy": "https://actual-innovation.com/privacy-policy",
-    "terms_of_service": "https://actual-innovation.com/terms-of-service",
-    "share_app_android": "https://play.google.com/store/apps/details?id=com.depthx.wallpaper",
+    "privacy_policy": "https://yogitech.online/privacy-policy",
+    "terms_of_service": "https://yogitech.online/privacy-policy",
+    "share_app_android": "https://play.google.com/store/apps/details?id=com.sanatan.hindu.depth.wallpaper",
     "share_app_ios": "https://apps.apple.com/app/id6771757120"
   },
   "subscription_config": {
