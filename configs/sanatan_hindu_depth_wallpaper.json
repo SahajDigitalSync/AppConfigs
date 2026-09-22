@@ -269,7 +269,7 @@
         },
         "free_tier_config": {
           "enabled": true,
-          "daily_limit": 5,
+          "daily_limit": 4,
           "sheet_title": "Daily Limit Reached",
           "sheet_subtitle": "You have used your 5 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
           "allow_rewarded_unlock": true,
