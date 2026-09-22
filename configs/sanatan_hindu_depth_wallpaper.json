@@ -261,14 +261,23 @@
           "interval": 2
         }
       },
-      "preview_screen": {
+      "open_wallpaper_ad": {
         "enabled": true,
-        "open_wallpaper_ad": {
+        "normal": {
           "enabled": true,
           "show_interstitial": true,
           "show_rewarded": false,
           "frequency": 2
         },
+        "premium": {
+          "enabled": true,
+          "show_interstitial": false,
+          "show_rewarded": true,
+          "frequency": 1
+        }
+      },
+      "preview_screen": {
+        "enabled": true,
         "set_wallpaper_ad": {
           "enabled": true,
           "show_interstitial": false,
