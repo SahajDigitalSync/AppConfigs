@@ -196,14 +196,6 @@
     "general": {
       "grace_period_days": 7
     },
-    "free_tier_config": {
-      "enabled": true,
-      "daily_limit": 5,
-      "sheet_title": "Daily Limit Reached",
-      "sheet_subtitle": "You have used your 5 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
-      "allow_rewarded_unlock": true,
-      "reward_bonus_uses": 1
-    },
     "interval_counts": {
       "type": "count",
       "count": "3"
@@ -274,6 +266,14 @@
           "show_interstitial": false,
           "show_rewarded": true,
           "frequency": 1
+        },
+        "free_tier_config": {
+          "enabled": true,
+          "daily_limit": 5,
+          "sheet_title": "Daily Limit Reached",
+          "sheet_subtitle": "You have used your 5 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
+          "allow_rewarded_unlock": true,
+          "reward_bonus_uses": 1
         }
       },
       "preview_screen": {
