@@ -157,9 +157,10 @@
     "show_ads_android": true,
     "show_ads_ios": true,
     "network_config": {
-      "active_network": "unity",
+      "active_network": "admob",
       "enable_fallback": true,
       "fallback_order": [
+        "admob",
         "unity",
         "ironsource"
       ]
