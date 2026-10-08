@@ -1,10 +1,10 @@
 {
   "update_config": {
-    "latest_version": "1.1.0",
-    "min_required_version": "1.1.0",
+    "latest_version": "1.0.2",
+    "min_required_version": "1.0.2",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.yogi.superhero.depth.wallpaper",
     "store_url_ios": "https://apps.apple.com/app/id6771757120",
-    "update_message": "Exciting new superhero depth wallpapers and styles available!"
+    "update_message": "Exciting new 3D Superhero depth wallpapers and styles available!"
   },
   "app_urls": {
     "privacy_policy": "https://yogitech.online/privacy-policy",
@@ -155,7 +155,7 @@
     }
   },
   "ads_config": {
-    "show_ads": false,
+    "show_ads": true,
     "show_ads_android": true,
     "show_ads_ios": true,
     "network_config": {
@@ -168,7 +168,7 @@
     "network_keys": {
       "admob": {
         "android": {
-          "app_id": "ca-app-pub-6792348656933105~8086547532"
+          "app_id": "ca-app-pub-3940256099942544~3347511713"
         },
         "ios": {
           "app_id": "ca-app-pub-3940256099942544~1458002511"
