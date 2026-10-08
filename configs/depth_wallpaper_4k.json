@@ -168,7 +168,7 @@
     "network_keys": {
       "admob": {
         "android": {
-          "app_id": "ca-app-pub-3940256099942544~3347511713"
+          "app_id": "ca-app-pub-6792348656933105~5517978538"
         },
         "ios": {
           "app_id": "ca-app-pub-3940256099942544~1458002511"
@@ -206,8 +206,6 @@
         "interstitial": "ca-app-pub-3940256099942544/1033173712",
         "rewarded": "ca-app-pub-3940256099942544/5224354917",
         "native": "ca-app-pub-3940256099942544/2247696110",
-        "native_image": "ca-app-pub-3940256099942544/2247696110",
-        "native_video": "ca-app-pub-3940256099942544/1044960115",
         "app_open": "ca-app-pub-3940256099942544/9257395921"
       },
       "ios": {
@@ -215,8 +213,6 @@
         "interstitial": "ca-app-pub-3940256099942544/4411468910",
         "rewarded": "ca-app-pub-3940256099942544/1712485313",
         "native": "ca-app-pub-3940256099942544/3986624511",
-        "native_image": "ca-app-pub-3940256099942544/3986624511",
-        "native_video": "ca-app-pub-3940256099942544/2521693316",
         "app_open": "ca-app-pub-3940256099942544/5575463023"
       }
     },
