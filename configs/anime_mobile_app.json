@@ -1,10 +1,10 @@
 {
   "update_config": {
-    "latest_version": "1.0.2",
-    "min_required_version": "1.0.2",
+    "latest_version": "1.1.0",
+    "min_required_version": "1.1.0",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.yogi.anime.depth.wallpaper",
     "store_url_ios": "https://apps.apple.com/app/id6771757120",
-    "update_message": "Exciting new 3D Anime depth wallpapers and styles available!"
+    "update_message": "Exciting new anime depth wallpapers and styles available!"
   },
   "app_urls": {
     "privacy_policy": "https://yogitech.online/privacy-policy",
@@ -22,7 +22,7 @@
           "enabled": true,
           "order": 1,
           "is_default_selected": true,
-          "product_id": "depthx_sub_yearly",
+          "product_id": "anime_sub_yearly",
           "base_plan_id": "yearly-base",
           "title": "1 Year Access",
           "subtitle": "Just $0.83 / month • Billed annually",
@@ -35,7 +35,7 @@
           "enabled": true,
           "order": 1,
           "is_default_selected": true,
-          "product_id": "depthx_sub_yearly",
+          "product_id": "anime_sub_yearly",
           "title": "1 Year Access",
           "subtitle": "Just $0.83 / month • Billed annually",
           "badge": "BEST VALUE",
@@ -49,7 +49,7 @@
           "enabled": true,
           "order": 2,
           "is_default_selected": false,
-          "product_id": "depthx_sub_6months",
+          "product_id": "anime_sub_6months",
           "base_plan_id": "6months-base",
           "title": "6 Months Access",
           "subtitle": "Just $1.33 / month • Billed every 6 months",
@@ -62,7 +62,7 @@
           "enabled": true,
           "order": 2,
           "is_default_selected": false,
-          "product_id": "depthx_sub_6months",
+          "product_id": "anime_sub_6months",
           "title": "6 Months Access",
           "subtitle": "Just $1.33 / month • Billed every 6 months",
           "badge": "60% OFF",
@@ -76,7 +76,7 @@
           "enabled": true,
           "order": 3,
           "is_default_selected": false,
-          "product_id": "depthx_sub_3months",
+          "product_id": "anime_sub_3months",
           "base_plan_id": "3months-base",
           "title": "3 Months Access",
           "subtitle": "Just $1.66 / month • Billed every 3 months",
@@ -89,7 +89,7 @@
           "enabled": true,
           "order": 3,
           "is_default_selected": false,
-          "product_id": "depthx_sub_3months",
+          "product_id": "anime_sub_3months",
           "title": "3 Months Access",
           "subtitle": "Just $1.66 / month • Billed every 3 months",
           "badge": "50% OFF",
@@ -103,7 +103,7 @@
           "enabled": true,
           "order": 4,
           "is_default_selected": false,
-          "product_id": "depthx_sub_monthly",
+          "product_id": "anime_sub_monthly",
           "base_plan_id": "monthly-base",
           "title": "1 Month Access",
           "subtitle": "Billed monthly • Auto-renews",
@@ -116,7 +116,7 @@
           "enabled": true,
           "order": 4,
           "is_default_selected": false,
-          "product_id": "depthx_sub_monthly",
+          "product_id": "anime_sub_monthly",
           "title": "1 Month Access",
           "subtitle": "Billed monthly • Auto-renews",
           "badge": "POPULAR",
@@ -130,7 +130,7 @@
           "enabled": true,
           "order": 5,
           "is_default_selected": false,
-          "product_id": "depthx_sub_weekly",
+          "product_id": "anime_sub_weekly",
           "base_plan_id": "weekly-base",
           "title": "1 Week Access",
           "subtitle": "Billed weekly",
@@ -143,7 +143,7 @@
           "enabled": true,
           "order": 5,
           "is_default_selected": false,
-          "product_id": "depthx_sub_weekly",
+          "product_id": "anime_sub_weekly",
           "title": "1 Week Access",
           "subtitle": "Billed weekly",
           "badge": null,
@@ -155,7 +155,7 @@
     }
   },
   "ads_config": {
-    "show_ads": true,
+    "show_ads": false,
     "show_ads_android": true,
     "show_ads_ios": true,
     "network_config": {
@@ -168,7 +168,7 @@
     "network_keys": {
       "admob": {
         "android": {
-          "app_id": "ca-app-pub-3940256099942544~3347511713"
+          "app_id": "ca-app-pub-6792348656933105~8521661802"
         },
         "ios": {
           "app_id": "ca-app-pub-3940256099942544~1458002511"
@@ -206,8 +206,6 @@
         "interstitial": "ca-app-pub-3940256099942544/1033173712",
         "rewarded": "ca-app-pub-3940256099942544/5224354917",
         "native": "ca-app-pub-3940256099942544/2247696110",
-        "native_image": "ca-app-pub-3940256099942544/2247696110",
-        "native_video": "ca-app-pub-3940256099942544/1044960115",
         "app_open": "ca-app-pub-3940256099942544/9257395921"
       },
       "ios": {
@@ -215,8 +213,6 @@
         "interstitial": "ca-app-pub-3940256099942544/4411468910",
         "rewarded": "ca-app-pub-3940256099942544/1712485313",
         "native": "ca-app-pub-3940256099942544/3986624511",
-        "native_image": "ca-app-pub-3940256099942544/3986624511",
-        "native_video": "ca-app-pub-3940256099942544/2521693316",
         "app_open": "ca-app-pub-3940256099942544/5575463023"
       }
     },
