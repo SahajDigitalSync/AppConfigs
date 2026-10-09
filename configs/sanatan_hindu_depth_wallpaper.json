@@ -160,53 +160,61 @@
     "show_ads_ios": true,
     "network_config": {
       "active_network": "admob",
-      "enable_fallback": false,
+      "enable_fallback": true,
       "fallback_order": [
-        "admob"
+        "admob",
+        "unity",
+        "ironsource"
       ]
     },
     "network_keys": {
       "admob": {
         "android": {
-          "app_id": "ca-app-pub-3940256099942544~3347511713"
+          "app_id": "ca-app-pub-6792348656933105~9399629206",
+          "banner": "ca-app-pub-3940256099942544/6300978111",
+          "interstitial": "ca-app-pub-3940256099942544/1033173712",
+          "rewarded": "ca-app-pub-3940256099942544/5224354917",
+          "native": "ca-app-pub-3940256099942544/2247696110",
+          "app_open": "ca-app-pub-3940256099942544/9257395921"
         },
         "ios": {
-          "app_id": "ca-app-pub-3940256099942544~1458002511"
+          "app_id": "ca-app-pub-3940256099942544~1458002511",
+          "banner": "ca-app-pub-3940256099942544/2934735716",
+          "interstitial": "ca-app-pub-3940256099942544/4411468910",
+          "rewarded": "ca-app-pub-3940256099942544/1712485313",
+          "native": "ca-app-pub-3940256099942544/3986624511",
+          "app_open": "ca-app-pub-3940256099942544/5575463023"
         }
       },
       "unity": {
         "android": {
           "game_id": "6099387",
-          "test_mode": true
+          "test_mode": true,
+          "banner": "Banner_Android",
+          "interstitial": "Interstitial_Android",
+          "rewarded": "Rewarded_Android"
         },
         "ios": {
           "game_id": "6099386",
-          "test_mode": true
+          "test_mode": true,
+          "banner": "Banner_iOS",
+          "interstitial": "Interstitial_iOS",
+          "rewarded": "Rewarded_iOS"
         }
       },
       "ironsource": {
         "android": {
-          "app_key": "27c682f5d"
+          "app_key": "27c682f5d",
+          "banner": "DefaultBanner",
+          "interstitial": "DefaultInterstitial",
+          "rewarded": "DefaultRewardedVideo"
         },
         "ios": {
-          "app_key": "27b502b6d"
+          "app_key": "27b502b6d",
+          "banner": "DefaultBanner",
+          "interstitial": "DefaultInterstitial",
+          "rewarded": "DefaultRewardedVideo"
         }
-      }
-    },
-    "ad_ids": {
-      "android": {
-        "banner": "ca-app-pub-3940256099942544/6300978111",
-        "interstitial": "ca-app-pub-3940256099942544/1033173712",
-        "rewarded": "ca-app-pub-3940256099942544/5224354917",
-        "native": "ca-app-pub-3940256099942544/2247696110",
-        "app_open": "ca-app-pub-3940256099942544/9257395921"
-      },
-      "ios": {
-        "banner": "ca-app-pub-3940256099942544/2934735716",
-        "interstitial": "ca-app-pub-3940256099942544/4411468910",
-        "rewarded": "ca-app-pub-3940256099942544/1712485313",
-        "native": "ca-app-pub-3940256099942544/3986624511",
-        "app_open": "ca-app-pub-3940256099942544/5575463023"
       }
     },
     "placements": {
