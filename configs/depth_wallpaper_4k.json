@@ -193,13 +193,6 @@
         }
       }
     },
-    "general": {
-      "grace_period_days": 7
-    },
-    "interval_counts": {
-      "type": "count",
-      "count": "3"
-    },
     "ad_ids": {
       "android": {
         "banner": "ca-app-pub-3940256099942544/6300978111",
