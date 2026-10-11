@@ -155,7 +155,7 @@
     }
   },
   "ads_config": {
-    "show_ads": true,
+    "show_ads": false,
     "show_ads_android": true,
     "show_ads_ios": true,
     "network_config": {
