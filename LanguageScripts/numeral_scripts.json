@@ -72,15 +72,6 @@
       "८",
       "९"
     ],
-    "weekdayShort": {
-      "Sun": "रवि",
-      "Mon": "सोम",
-      "Tue": "मंगल",
-      "Wed": "बुध",
-      "Thu": "गुरु",
-      "Fri": "शुक्र",
-      "Sat": "शनि"
-    },
     "weekdayFull": {
       "Sunday": "रविवार",
       "Monday": "सोमवार",
@@ -90,19 +81,14 @@
       "Friday": "शुक्रवार",
       "Saturday": "शनिवार"
     },
-    "monthShort": {
-      "Jan": "जन",
-      "Feb": "फर",
-      "Mar": "मार्च",
-      "Apr": "अप्रै",
-      "May": "मई",
-      "Jun": "जून",
-      "Jul": "जुल",
-      "Aug": "अग",
-      "Sep": "सित",
-      "Oct": "अक्टू",
-      "Nov": "नव",
-      "Dec": "दिस"
+    "weekdayShort": {
+      "Sun": "रवि",
+      "Mon": "सोम",
+      "Tue": "मंगल",
+      "Wed": "बुध",
+      "Thu": "गुरु",
+      "Fri": "शुक्र",
+      "Sat": "शनि"
     },
     "monthFull": {
       "January": "जनवरी",
@@ -117,6 +103,20 @@
       "October": "अक्टूबर",
       "November": "नवंबर",
       "December": "दिसंबर"
+    },
+    "monthShort": {
+      "Jan": "जनवरी",
+      "Feb": "फरवरी",
+      "Mar": "मार्च",
+      "Apr": "अप्रैल",
+      "May": "मई",
+      "Jun": "जून",
+      "Jul": "जुलाई",
+      "Aug": "अगस्त",
+      "Sep": "सितंबर",
+      "Oct": "अक्टूबर",
+      "Nov": "नवंबर",
+      "Dec": "दिसंबर"
     }
   },
   "gurmukhi": {
@@ -225,18 +225,18 @@
       "December": "idsambar"
     },
     "monthShort": {
-      "Jan": "jana",
-      "Feb": "frv",
-      "Mar": "march",
-      "Apr": "Aep",
-      "May": "maq",
-      "Jun": "joon",
-      "Jul": "jau",
-      "Aug": "ag",
-      "Sep": "isa",
-      "Oct": "A|o",
-      "Nov": "nav",
-      "Dec": "ids"
+      "Jan": "janavarI",
+      "Feb": "frvarI",
+      "Mar": "maacaQ",
+      "Apr": "AepXaIla",
+      "May": "maqQ",
+      "Jun": "jauna",
+      "Jul": "jaulaaqQ",
+      "Aug": "Agasta",
+      "Sep": "isata/bar",
+      "Oct": "A|oubar",
+      "Nov": "nava/bar",
+      "Dec": "idsambar"
     }
   },
   "c-e8df84c0": {
