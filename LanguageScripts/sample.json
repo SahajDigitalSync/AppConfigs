@@ -1,6 +1,17 @@
 {
   "gujarati": {
-    "digits": ["૦", "૧", "૨", "૩", "૪", "૫", "૬", "૭", "૮", "૯"],
+    "digits": [
+      "૦",
+      "૧",
+      "૨",
+      "૩",
+      "૪",
+      "૫",
+      "૬",
+      "૭",
+      "૮",
+      "૯"
+    ],
     "weekdayShort": {
       "Sun": "રવિ",
       "Mon": "સોમ",
@@ -49,7 +60,18 @@
     }
   },
   "devanagari": {
-    "digits": ["०", "१", "२", "३", "४", "५", "६", "७", "८", "९"],
+    "digits": [
+      "०",
+      "१",
+      "२",
+      "३",
+      "४",
+      "५",
+      "६",
+      "७",
+      "८",
+      "९"
+    ],
     "weekdayShort": {
       "Sun": "रवि",
       "Mon": "सोम",
@@ -98,7 +120,18 @@
     }
   },
   "gurmukhi": {
-    "digits": ["੦", "੧", "੨", "੩", "੪", "੫", "੬", "੭", "੮", "੯"],
+    "digits": [
+      "੦",
+      "੧",
+      "੨",
+      "੩",
+      "੪",
+      "੫",
+      "੬",
+      "੭",
+      "੮",
+      "੯"
+    ],
     "weekdayShort": {
       "Sun": "ਐਤ",
       "Mon": "ਸੋਮ",
@@ -144,6 +177,126 @@
       "October": "ਅਕਤੂਬਰ",
       "November": "ਨਵੰਬਰ",
       "December": "ਦਸੰਬਰ"
+    }
+  },
+  "c-adde0320": {
+    "digits": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "weekdayFull": {
+      "Sunday": "ravivaar",
+      "Monday": "somvaar",
+      "Tuesday": "mangalvaar",
+      "Wednesday": "budhvaar",
+      "Thursday": "guruvaar",
+      "Friday": "shukravaar",
+      "Saturday": "shanivaar"
+    },
+    "weekdayShort": {
+      "Sun": "ravi",
+      "Mon": "som",
+      "Tue": "mangal",
+      "Wed": "budh",
+      "Thu": "guru",
+      "Fri": "shukra",
+      "Sat": "shani"
+    },
+    "monthFull": {
+      "January": "janvari",
+      "February": "farvari",
+      "March": "march",
+      "April": "april",
+      "May": "mai",
+      "June": "joon",
+      "July": "julai",
+      "August": "agast",
+      "September": "sitambar",
+      "October": "aktoobar",
+      "November": "navambar",
+      "December": "disambar"
+    },
+    "monthShort": {
+      "Jan": "jan",
+      "Feb": "far",
+      "Mar": "march",
+      "Apr": "apr",
+      "May": "mai",
+      "Jun": "joon",
+      "Jul": "jul",
+      "Aug": "ag",
+      "Sep": "sit",
+      "Oct": "akt",
+      "Nov": "nav",
+      "Dec": "dis"
+    }
+  },
+  "c-e8df84c0": {
+    "digits": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "weekdayFull": {
+      "Sunday": "aitvaar",
+      "Monday": "somvaar",
+      "Tuesday": "mangalvaar",
+      "Wednesday": "budhvaar",
+      "Thursday": "veervaar",
+      "Friday": "shukkarvaar",
+      "Saturday": "shanivaar"
+    },
+    "weekdayShort": {
+      "Sun": "ait",
+      "Mon": "som",
+      "Tue": "mangal",
+      "Wed": "budh",
+      "Thu": "veer",
+      "Fri": "shukkar",
+      "Sat": "shani"
+    },
+    "monthFull": {
+      "January": "janvari",
+      "February": "farvari",
+      "March": "march",
+      "April": "april",
+      "May": "mai",
+      "June": "joon",
+      "July": "julai",
+      "August": "agast",
+      "September": "sitambar",
+      "October": "aktoobar",
+      "November": "navambar",
+      "December": "disambar"
+    },
+    "monthShort": {
+      "Jan": "jan",
+      "Feb": "far",
+      "Mar": "march",
+      "Apr": "apr",
+      "May": "mai",
+      "Jun": "joon",
+      "Jul": "jul",
+      "Aug": "ag",
+      "Sep": "sit",
+      "Oct": "akt",
+      "Nov": "nav",
+      "Dec": "dis"
     }
   }
 }
