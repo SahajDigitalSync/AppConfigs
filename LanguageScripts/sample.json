@@ -1,1 +1,149 @@
-
+{
+  "gujarati": {
+    "digits": ["૦", "૧", "૨", "૩", "૪", "૫", "૬", "૭", "૮", "૯"],
+    "weekdayShort": {
+      "Sun": "રવિ",
+      "Mon": "સોમ",
+      "Tue": "મંગળ",
+      "Wed": "બુધ",
+      "Thu": "ગુરુ",
+      "Fri": "શુક્ર",
+      "Sat": "શનિ"
+    },
+    "weekdayFull": {
+      "Sunday": "રવિવાર",
+      "Monday": "સોમવાર",
+      "Tuesday": "મંગળવાર",
+      "Wednesday": "બુધવાર",
+      "Thursday": "ગુરુવાર",
+      "Friday": "શુક્રવાર",
+      "Saturday": "શનિવાર"
+    },
+    "monthShort": {
+      "Jan": "જાન",
+      "Feb": "ફેબ",
+      "Mar": "માર",
+      "Apr": "એપ",
+      "May": "મે",
+      "Jun": "જૂન",
+      "Jul": "જુલ",
+      "Aug": "ઑગ",
+      "Sep": "સપ્ટ",
+      "Oct": "ઑક્ટ",
+      "Nov": "નવ",
+      "Dec": "ડિસ"
+    },
+    "monthFull": {
+      "January": "જાન્યુઆરી",
+      "February": "ફેબ્રુઆરી",
+      "March": "માર્ચ",
+      "April": "એપ્રિલ",
+      "May": "મે",
+      "June": "જૂન",
+      "July": "જુલાઈ",
+      "August": "ઑગસ્ટ",
+      "September": "સપ્ટેમ્બર",
+      "October": "ઑક્ટોબર",
+      "November": "નવેમ્બર",
+      "December": "ડિસેમ્બર"
+    }
+  },
+  "devanagari": {
+    "digits": ["०", "१", "२", "३", "४", "५", "६", "७", "८", "९"],
+    "weekdayShort": {
+      "Sun": "रवि",
+      "Mon": "सोम",
+      "Tue": "मंगल",
+      "Wed": "बुध",
+      "Thu": "गुरु",
+      "Fri": "शुक्र",
+      "Sat": "शनि"
+    },
+    "weekdayFull": {
+      "Sunday": "रविवार",
+      "Monday": "सोमवार",
+      "Tuesday": "मंगलवार",
+      "Wednesday": "बुधवार",
+      "Thursday": "गुरुवार",
+      "Friday": "शुक्रवार",
+      "Saturday": "शनिवार"
+    },
+    "monthShort": {
+      "Jan": "जन",
+      "Feb": "फर",
+      "Mar": "मार्च",
+      "Apr": "अप्रै",
+      "May": "मई",
+      "Jun": "जून",
+      "Jul": "जुल",
+      "Aug": "अग",
+      "Sep": "सित",
+      "Oct": "अक्टू",
+      "Nov": "नव",
+      "Dec": "दिस"
+    },
+    "monthFull": {
+      "January": "जनवरी",
+      "February": "फरवरी",
+      "March": "मार्च",
+      "April": "अप्रैल",
+      "May": "मई",
+      "June": "जून",
+      "July": "जुलाई",
+      "August": "अगस्त",
+      "September": "सितंबर",
+      "October": "अक्टूबर",
+      "November": "नवंबर",
+      "December": "दिसंबर"
+    }
+  },
+  "gurmukhi": {
+    "digits": ["੦", "੧", "੨", "੩", "੪", "੫", "੬", "੭", "੮", "੯"],
+    "weekdayShort": {
+      "Sun": "ਐਤ",
+      "Mon": "ਸੋਮ",
+      "Tue": "ਮੰਗਲ",
+      "Wed": "ਬੁੱਧ",
+      "Thu": "ਵੀਰ",
+      "Fri": "ਸ਼ੁੱਕਰ",
+      "Sat": "ਸ਼ਨੀ"
+    },
+    "weekdayFull": {
+      "Sunday": "ਐਤਵਾਰ",
+      "Monday": "ਸੋਮਵਾਰ",
+      "Tuesday": "ਮੰਗਲਵਾਰ",
+      "Wednesday": "ਬੁੱਧਵਾਰ",
+      "Thursday": "ਵੀਰਵਾਰ",
+      "Friday": "ਸ਼ੁੱਕਰਵਾਰ",
+      "Saturday": "ਸ਼ਨੀਵਾਰ"
+    },
+    "monthShort": {
+      "Jan": "ਜਨ",
+      "Feb": "ਫ਼ਰ",
+      "Mar": "ਮਾਰਚ",
+      "Apr": "ਅਪ੍ਰੈ",
+      "May": "ਮਈ",
+      "Jun": "ਜੂਨ",
+      "Jul": "ਜੁਲਾ",
+      "Aug": "ਅਗ",
+      "Sep": "ਸਤੰ",
+      "Oct": "ਅਕਤੂ",
+      "Nov": "ਨਵੰ",
+      "Dec": "ਦਸੰ"
+    },
+    "monthFull": {
+      "January": "ਜਨਵਰੀ",
+      "February": "ਫ਼ਰਵਰੀ",
+      "March": "ਮਾਰਚ",
+      "April": "ਅਪ੍ਰੈਲ",
+      "May": "ਮਈ",
+      "June": "ਜੂਨ",
+      "July": "ਜੁਲਾਈ",
+      "August": "ਅਗਸਤ",
+      "September": "ਸਤੰਬਰ",
+      "October": "ਅਕਤੂਬਰ",
+      "November": "ਨਵੰਬਰ",
+      "December": "ਦਸੰਬਰ"
+    }
+  }
+}
