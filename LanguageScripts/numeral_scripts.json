@@ -1,5 +1,7 @@
 {
   "gujarati": {
+    "label": "Gujarati",
+    "typing": "gujarati",
     "digits": [
       "૦",
       "૧",
@@ -60,6 +62,8 @@
     }
   },
   "devanagari": {
+    "label": "Hindi (Devanagari)",
+    "typing": "devanagari",
     "digits": [
       "०",
       "१",
@@ -120,6 +124,8 @@
     }
   },
   "gurmukhi": {
+    "label": "Punjabi (Gurmukhi)",
+    "typing": "gurmukhi",
     "digits": [
       "੦",
       "੧",
@@ -180,6 +186,7 @@
     }
   },
   "c-adde0320": {
+    "label": "Hindi Translitaration",
     "digits": [
       "0",
       "1",
@@ -240,6 +247,7 @@
     }
   },
   "c-e8df84c0": {
+    "label": "Punjabi Translitaration",
     "digits": [
       "0",
       "1",
