@@ -193,9 +193,9 @@
       "9"
     ],
     "weekdayFull": {
-      "Sunday": "ravivaar",
-      "Monday": "somvaar",
-      "Tuesday": "mangalvaar",
+      "Sunday": "ravIvaar",
+      "Monday": "somavaar",
+      "Tuesday": "mangalavaar",
       "Wednesday": "budhvaar",
       "Thursday": "guruvaar",
       "Friday": "shukravaar",
@@ -211,8 +211,8 @@
       "Sat": "shani"
     },
     "monthFull": {
-      "January": "janvari",
-      "February": "farvari",
+      "January": "janavarI",
+      "February": "farvarI",
       "March": "march",
       "April": "april",
       "May": "mai",
