@@ -13,7 +13,7 @@
     "share_app_ios": "https://apps.apple.com/app/id6771757120"
   },
   "subscription_config": {
-    "enabled": false,
+    "enabled": true,
     "show_subscriptions_android": true,
     "show_subscriptions_ios": true,
     "plans": {
@@ -25,11 +25,11 @@
           "product_id": "sanatan_sub_yearly",
           "base_plan_id": "yearly-base",
           "title": "1 Year Access",
-          "subtitle": "Just $0.83 / month • Billed annually",
+          "subtitle": "Just $0.42 / month • Billed annually",
           "badge": "BEST VALUE",
           "discount_percent": 75,
-          "original_price": "$39.99",
-          "fallback_price": "$9.99"
+          "original_price": "$19.99",
+          "fallback_price": "$5.00"
         },
         "ios": {
           "enabled": true,
@@ -37,11 +37,11 @@
           "is_default_selected": true,
           "product_id": "sanatan_sub_yearly",
           "title": "1 Year Access",
-          "subtitle": "Just $0.83 / month • Billed annually",
+          "subtitle": "Just $0.42 / month • Billed annually",
           "badge": "BEST VALUE",
           "discount_percent": 75,
-          "original_price": "$39.99",
-          "fallback_price": "$9.99"
+          "original_price": "$19.99",
+          "fallback_price": "$5.00"
         }
       },
       "six_months": {
@@ -52,11 +52,11 @@
           "product_id": "sanatan_sub_6months",
           "base_plan_id": "6months-base",
           "title": "6 Months Access",
-          "subtitle": "Just $1.33 / month • Billed every 6 months",
-          "badge": "60% OFF",
+          "subtitle": "Just $0.67 / month • Billed every 6 months",
+          "badge": "POPULAR",
           "discount_percent": 60,
-          "original_price": "$19.99",
-          "fallback_price": "$7.99"
+          "original_price": "$11.99",
+          "fallback_price": "$4.00"
         },
         "ios": {
           "enabled": true,
@@ -64,11 +64,11 @@
           "is_default_selected": false,
           "product_id": "sanatan_sub_6months",
           "title": "6 Months Access",
-          "subtitle": "Just $1.33 / month • Billed every 6 months",
-          "badge": "60% OFF",
+          "subtitle": "Just $0.67 / month • Billed every 6 months",
+          "badge": "POPULAR",
           "discount_percent": 60,
-          "original_price": "$19.99",
-          "fallback_price": "$7.99"
+          "original_price": "$11.99",
+          "fallback_price": "$4.00"
         }
       },
       "three_months": {
@@ -79,11 +79,11 @@
           "product_id": "sanatan_sub_3months",
           "base_plan_id": "3months-base",
           "title": "3 Months Access",
-          "subtitle": "Just $1.66 / month • Billed every 3 months",
-          "badge": "50% OFF",
-          "discount_percent": 50,
-          "original_price": "$9.99",
-          "fallback_price": "$4.99"
+          "subtitle": "Just $1.00 / month • Billed every 3 months",
+          "badge": null,
+          "discount_percent": 40,
+          "original_price": "$5.99",
+          "fallback_price": "$3.00"
         },
         "ios": {
           "enabled": true,
@@ -91,11 +91,11 @@
           "is_default_selected": false,
           "product_id": "sanatan_sub_3months",
           "title": "3 Months Access",
-          "subtitle": "Just $1.66 / month • Billed every 3 months",
-          "badge": "50% OFF",
-          "discount_percent": 50,
-          "original_price": "$9.99",
-          "fallback_price": "$4.99"
+          "subtitle": "Just $1.00 / month • Billed every 3 months",
+          "badge": null,
+          "discount_percent": 40,
+          "original_price": "$5.99",
+          "fallback_price": "$3.00"
         }
       },
       "monthly": {
@@ -106,11 +106,11 @@
           "product_id": "sanatan_sub_monthly",
           "base_plan_id": "monthly-base",
           "title": "1 Month Access",
-          "subtitle": "Billed monthly • Auto-renews",
-          "badge": "POPULAR",
+          "subtitle": "Billed monthly • Cancel anytime",
+          "badge": null,
           "discount_percent": 0,
           "original_price": null,
-          "fallback_price": "$1.99"
+          "fallback_price": "$2.00"
         },
         "ios": {
           "enabled": true,
@@ -118,11 +118,11 @@
           "is_default_selected": false,
           "product_id": "sanatan_sub_monthly",
           "title": "1 Month Access",
-          "subtitle": "Billed monthly • Auto-renews",
-          "badge": "POPULAR",
+          "subtitle": "Billed monthly • Cancel anytime",
+          "badge": null,
           "discount_percent": 0,
           "original_price": null,
-          "fallback_price": "$1.99"
+          "fallback_price": "$2.00"
         }
       },
       "weekly": {
@@ -133,7 +133,7 @@
           "product_id": "sanatan_sub_weekly",
           "base_plan_id": "weekly-base",
           "title": "1 Week Access",
-          "subtitle": "Billed weekly",
+          "subtitle": "Billed weekly • Cancel anytime",
           "badge": null,
           "discount_percent": 0,
           "original_price": null,
@@ -145,7 +145,7 @@
           "is_default_selected": false,
           "product_id": "sanatan_sub_weekly",
           "title": "1 Week Access",
-          "subtitle": "Billed weekly",
+          "subtitle": "Billed weekly • Cancel anytime",
           "badge": null,
           "discount_percent": 0,
           "original_price": null,
