@@ -13,7 +13,7 @@
     "share_app_ios": "https://apps.apple.com/app/id6771757120"
   },
   "subscription_config": {
-    "enabled": true,
+    "enabled": false,
     "show_subscriptions_android": true,
     "show_subscriptions_ios": true,
     "plans": {
