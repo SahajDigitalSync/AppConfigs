@@ -14,6 +14,21 @@
     "enabled": false,
     "show_subscriptions_android": true,
     "plans": {
+      "lifetime": {
+        "android": {
+          "enabled": true,
+          "order": 1,
+          "is_default_selected": true,
+          "product_id": "anime_lifetime",
+          "base_plan_id": "lifetime-base",
+          "title": "Lifetime Access",
+          "subtitle": "Pay once • Keep Pro forever",
+          "badge": "BEST VALUE",
+          "discount_percent": 85,
+          "original_price": "$99.99",
+          "fallback_price": "$14.99"
+        }
+      },
       "yearly": {
         "android": {
           "enabled": true,
