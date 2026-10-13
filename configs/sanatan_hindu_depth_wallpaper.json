@@ -186,7 +186,7 @@
           "enabled": true,
           "show_interstitial": true,
           "show_rewarded": false,
-          "frequency": 2
+          "frequency": 1
         },
         "premium": {
           "enabled": true,
