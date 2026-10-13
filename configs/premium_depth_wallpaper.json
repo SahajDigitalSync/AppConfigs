@@ -3,13 +3,11 @@
     "latest_version": "1.1.1",
     "min_required_version": "1.1.1",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.yogi.premium.depth.wallpaper",
-    "store_url_ios": "https://apps.apple.com/app/id6771757120",
     "update_message": "Exciting new depth wallpapers and styles available!"
   },
   "app_urls": {
     "privacy_policy": "https://yogitech.online/privacy-policy",
     "terms_of_service": "https://yogitech.online/privacy-policy",
-    "share_app_android": "https://play.google.com/store/apps/details?id=com.yogi.premium.depth.wallpaper",
-    "share_app_ios": "https://apps.apple.com/app/id6771757120"
+    "share_app_android": "https://play.google.com/store/apps/details?id=com.yogi.premium.depth.wallpaper"
   }
 }
