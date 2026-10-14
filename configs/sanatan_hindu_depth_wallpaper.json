@@ -113,9 +113,7 @@
       "active_network": "admob",
       "enable_fallback": true,
       "fallback_order": [
-        "admob",
-        "unity",
-        "ironsource"
+        "admob"
       ]
     },
     "network_keys": {
