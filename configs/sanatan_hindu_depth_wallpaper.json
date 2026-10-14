@@ -198,7 +198,10 @@
           "sheet_title": "Daily Limit Reached",
           "sheet_subtitle": "You have used your 5 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
           "allow_rewarded_unlock": true,
-          "reward_bonus_uses": 1
+          "reward_bonus_uses": 1,
+          "ads_to_unlock": 1,
+          "show_rewarded": true,
+          "show_interstitial": false
         }
       },
       "preview_screen": {
@@ -215,6 +218,11 @@
           "show_rewarded": true,
           "frequency": 1
         }
+      },
+      "app_open_ad": {
+        "enabled": true,
+        "show_on_cold_start": true,
+        "show_on_resume": true
       }
     }
   }
