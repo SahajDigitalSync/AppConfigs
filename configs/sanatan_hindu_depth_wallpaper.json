@@ -221,7 +221,7 @@
       },
       "app_open_ad": {
         "enabled": true,
-        "show_on_cold_start": true,
+        "show_on_cold_start": false,
         "show_on_resume": true
       }
     }
