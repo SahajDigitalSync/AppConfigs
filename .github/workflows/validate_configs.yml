@@ -1,0 +1,31 @@
+name: Validate Configs
+
+# Gate for the branch protection rule on main: "require this check to
+# pass before merging" (see scripts/validate_config.py for what it
+# checks and why). Runs on the PR's own merge of the change, not on the
+# push event, so it reflects what main would actually look like.
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'configs/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get changed config files
+        id: changed-files
+        uses: tj-actions/changed-files@v44
+        with:
+          files: |
+            configs/**
+
+      - name: Validate changed configs
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          python3 scripts/validate_config.py ${{ steps.changed-files.outputs.all_changed_files }}
