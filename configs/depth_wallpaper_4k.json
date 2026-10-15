@@ -11,7 +11,7 @@
     "share_app_android": "https://play.google.com/store/apps/details?id=com.yogi.depth.wallpaper"
   },
   "subscription_config": {
-    "enabled": true,
+    "enabled": false,
     "show_subscriptions_android": true,
     "plans": {
       "lifetime": {
@@ -227,5 +227,5 @@
       }
     }
   },
-  "show_special": true
+  "show_special": false
 }
