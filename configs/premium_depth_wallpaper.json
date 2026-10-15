@@ -9,5 +9,6 @@
     "privacy_policy": "https://yogitech.online/privacy-policy",
     "terms_of_service": "https://yogitech.online/privacy-policy",
     "share_app_android": "https://play.google.com/store/apps/details?id=com.yogi.premium.depth.wallpaper"
-  }
+  },
+  "show_special": true
 }
