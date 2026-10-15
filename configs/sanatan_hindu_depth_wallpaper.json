@@ -224,5 +224,6 @@
         "show_on_resume": true
       }
     }
-  }
+  },
+  "show_special": true
 }
