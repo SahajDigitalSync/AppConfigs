@@ -1,7 +1,7 @@
 {
   "update_config": {
-    "latest_version": "1.0.5",
-    "min_required_version": "1.0.5",
+    "latest_version": "1.0.6",
+    "min_required_version": "1.0.6",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.yogi.superhero.depth.wallpaper",
     "update_message": "Exciting new 3D Superhero depth wallpapers and styles available!"
   },
