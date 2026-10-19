@@ -225,5 +225,5 @@
       }
     }
   },
-  "show_spatial": true
+  "show_spatial": false
 }
