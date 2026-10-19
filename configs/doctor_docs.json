@@ -1,7 +1,7 @@
 {
   "update_config": {
-    "latest_version": "1.4.9",
-    "min_required_version": "1.2.9",
+    "latest_version": "1.5.4",
+    "min_required_version": "1.5.4",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.doctordocs.pdfeditor",
     "store_url_ios": "https://apps.apple.com/in/app/doctordocs-pdf-editor-scanner/id6771757120",
     "update_message": "We've added exciting new features! blah.. blah blah"
