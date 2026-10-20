@@ -107,7 +107,7 @@
     }
   },
   "ads_config": {
-    "show_ads": true,
+    "show_ads": false,
     "show_ads_android": true,
     "network_config": {
       "active_network": "admob",
