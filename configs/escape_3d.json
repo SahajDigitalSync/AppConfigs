@@ -60,6 +60,12 @@
         "enabled": true,
         "show_interstitial": false,
         "show_rewarded": true
+      },
+      "magic_wand": {
+        "enabled": true,
+        "show_interstitial": false,
+        "show_rewarded": true,
+        "arrow_count": 1
       }
     }
   },
