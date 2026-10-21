@@ -65,7 +65,7 @@
         "enabled": true,
         "show_interstitial": false,
         "show_rewarded": true,
-        "arrow_count": 1
+        "arrow_count": 5
       }
     }
   },
