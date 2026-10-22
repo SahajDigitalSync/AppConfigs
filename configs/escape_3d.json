@@ -33,7 +33,7 @@
       },
       "gameplay_banner": {
         "enabled": true,
-        "toggle_duration": 40
+        "toggle_duration": 20
       },
       "level_complete": {
         "enabled": true,
