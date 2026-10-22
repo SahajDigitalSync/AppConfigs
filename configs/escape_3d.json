@@ -69,5 +69,422 @@
       }
     }
   },
-  "admob_publisher_id": "pub-4084542861235087"
+  "admob_publisher_id": "pub-4084542861235087",
+  "iap_config": {
+    "enabled": true,
+    "show_iap_android": true,
+    "show_iap_ios": true,
+    "plans": [
+      {
+        "id": "no_ads",
+        "enabled": true,
+        "product_type": "non_consumable",
+        "android": {
+          "enabled": true,
+          "order": 1,
+          "product_id": "no_ads",
+          "purchase_option_id": "no-ads-buy",
+          "tag": "no-ads",
+          "title": "No Ads",
+          "subtitle": "Permanently remove all ads for an uninterrupted experience.",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$7.99",
+          "rewards": {
+            "remove_ads": true,
+            "coins": 0,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 1,
+          "product_id": "no_ads",
+          "title": "No Ads",
+          "subtitle": "Permanently remove all ads for an uninterrupted experience.",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$7.99",
+          "rewards": {
+            "remove_ads": true,
+            "coins": 0,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        }
+      },
+      {
+        "id": "no_ads_pack",
+        "enabled": true,
+        "product_type": "non_consumable",
+        "android": {
+          "enabled": true,
+          "order": 2,
+          "product_id": "no_ads_pack",
+          "purchase_option_id": "no-ads-pack-buy",
+          "tag": "no-ads-pack",
+          "title": "NOADS PACK",
+          "subtitle": "Permanently remove all ads + 3 Hints & 3 Erasers.",
+          "badge": "BEST VALUE",
+          "discount_percent": 0,
+          "fallback_price": "$9.99",
+          "rewards": {
+            "remove_ads": true,
+            "coins": 0,
+            "hints": 3,
+            "erasers": 3,
+            "magic_wands": 0
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 2,
+          "product_id": "no_ads_pack",
+          "title": "NOADS PACK",
+          "subtitle": "Permanently remove all ads + 3 Hints & 3 Erasers.",
+          "badge": "BEST VALUE",
+          "discount_percent": 0,
+          "fallback_price": "$9.99",
+          "rewards": {
+            "remove_ads": true,
+            "coins": 0,
+            "hints": 3,
+            "erasers": 3,
+            "magic_wands": 0
+          }
+        }
+      },
+      {
+        "id": "starter_pack",
+        "enabled": true,
+        "product_type": "consumable",
+        "android": {
+          "enabled": true,
+          "order": 3,
+          "product_id": "starter_pack",
+          "purchase_option_id": "starter-pack-buy",
+          "tag": "starter-pack",
+          "title": "STARTER PACK",
+          "subtitle": "Special Boost Bundle",
+          "badge": "50% OFF",
+          "discount_percent": 50,
+          "fallback_price": "$1.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 0,
+            "hints": 2,
+            "erasers": 2,
+            "magic_wands": 2
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 3,
+          "product_id": "starter_pack",
+          "title": "STARTER PACK",
+          "subtitle": "Special Boost Bundle",
+          "badge": "50% OFF",
+          "discount_percent": 50,
+          "fallback_price": "$1.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 0,
+            "hints": 2,
+            "erasers": 2,
+            "magic_wands": 2
+          }
+        }
+      },
+      {
+        "id": "special_pack",
+        "enabled": true,
+        "product_type": "consumable",
+        "android": {
+          "enabled": true,
+          "order": 4,
+          "product_id": "special_pack",
+          "purchase_option_id": "special-pack-buy",
+          "tag": "special-pack",
+          "title": "SPECIAL PACK",
+          "subtitle": "Huge Coin Chest & Boosters",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$7.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 4500,
+            "hints": 3,
+            "erasers": 3,
+            "magic_wands": 0
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 4,
+          "product_id": "special_pack",
+          "title": "SPECIAL PACK",
+          "subtitle": "Huge Coin Chest & Boosters",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$7.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 4500,
+            "hints": 3,
+            "erasers": 3,
+            "magic_wands": 0
+          }
+        }
+      },
+      {
+        "id": "coins_1500",
+        "enabled": true,
+        "product_type": "consumable",
+        "android": {
+          "enabled": true,
+          "order": 5,
+          "product_id": "coins_1500",
+          "purchase_option_id": "coins-1500-buy",
+          "tag": "coins",
+          "title": "1500 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$1.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 1500,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 5,
+          "product_id": "coins_1500",
+          "title": "1500 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$1.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 1500,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        }
+      },
+      {
+        "id": "coins_7500",
+        "enabled": true,
+        "product_type": "consumable",
+        "android": {
+          "enabled": true,
+          "order": 6,
+          "product_id": "coins_7500",
+          "purchase_option_id": "coins-7500-buy",
+          "tag": "coins",
+          "title": "7500 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$7.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 7500,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 6,
+          "product_id": "coins_7500",
+          "title": "7500 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$7.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 7500,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        }
+      },
+      {
+        "id": "coins_20000",
+        "enabled": true,
+        "product_type": "consumable",
+        "android": {
+          "enabled": true,
+          "order": 7,
+          "product_id": "coins_20000",
+          "purchase_option_id": "coins-20000-buy",
+          "tag": "coins",
+          "title": "20000 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$14.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 20000,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 7,
+          "product_id": "coins_20000",
+          "title": "20000 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$14.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 20000,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        }
+      },
+      {
+        "id": "coins_45000",
+        "enabled": true,
+        "product_type": "consumable",
+        "android": {
+          "enabled": true,
+          "order": 8,
+          "product_id": "coins_45000",
+          "purchase_option_id": "coins-45000-buy",
+          "tag": "coins",
+          "title": "45000 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$29.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 45000,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 8,
+          "product_id": "coins_45000",
+          "title": "45000 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$29.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 45000,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        }
+      },
+      {
+        "id": "coins_80000",
+        "enabled": true,
+        "product_type": "consumable",
+        "android": {
+          "enabled": true,
+          "order": 9,
+          "product_id": "coins_80000",
+          "purchase_option_id": "coins-80000-buy",
+          "tag": "coins",
+          "title": "80000 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$49.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 80000,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 9,
+          "product_id": "coins_80000",
+          "title": "80000 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$49.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 80000,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        }
+      },
+      {
+        "id": "coins_220000",
+        "enabled": true,
+        "product_type": "consumable",
+        "android": {
+          "enabled": true,
+          "order": 10,
+          "product_id": "coins_220000",
+          "purchase_option_id": "coins-220000-buy",
+          "tag": "coins",
+          "title": "220000 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$99.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 220000,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        },
+        "ios": {
+          "enabled": true,
+          "order": 10,
+          "product_id": "coins_220000",
+          "title": "220000 Coin",
+          "subtitle": "",
+          "badge": "",
+          "discount_percent": 0,
+          "fallback_price": "$99.99",
+          "rewards": {
+            "remove_ads": false,
+            "coins": 220000,
+            "hints": 0,
+            "erasers": 0,
+            "magic_wands": 0
+          }
+        }
+      }
+    ]
+  }
 }
