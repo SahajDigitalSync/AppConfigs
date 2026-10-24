@@ -150,7 +150,7 @@
         "enabled": true,
         "banner": {
           "enabled": true,
-          "toggle_duration": 20
+          "toggle_duration": 30
         },
         "native_ad": {
           "enabled": true,
