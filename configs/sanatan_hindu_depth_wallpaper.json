@@ -151,7 +151,7 @@
       "collection_screen": {
         "enabled": true,
         "banner": {
-          "enabled": true,
+          "enabled": false,
           "toggle_duration": 30
         },
         "native_ad": {
