@@ -13,6 +13,7 @@
   "subscription_config": {
     "enabled": true,
     "show_subscriptions_android": true,
+    "require_login_before_purchase": true,
     "plans": {
       "lifetime": {
         "android": {
