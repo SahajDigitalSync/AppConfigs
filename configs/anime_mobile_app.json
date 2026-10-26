@@ -8,7 +8,8 @@
   "app_urls": {
     "privacy_policy": "https://yogitech.online/privacy-policy",
     "terms_of_service": "https://yogitech.online/privacy-policy",
-    "share_app_android": "https://play.google.com/store/apps/details?id=com.yogi.anime.depth.wallpaper"
+    "share_app_android": "https://play.google.com/store/apps/details?id=com.yogi.anime.depth.wallpaper",
+    "support_email": "yogipersonalisationapps@gmail.com"
   },
   "subscription_config": {
     "enabled": true,
