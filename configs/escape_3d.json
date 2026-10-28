@@ -9,7 +9,8 @@
   "app_urls": {
     "privacy_policy": "https://www.axiallabs.tech/privacy-policy",
     "share_app_android": "https://play.google.com/store/apps/details?id=com.axiallabs.escape3d",
-    "share_app_ios": "https://apps.apple.com/us/app/escape-3d-tap-arrow-puzzle/id6796564749"
+    "share_app_ios": "https://apps.apple.com/us/app/escape-3d-tap-arrow-puzzle/id6796564749",
+    "support_email": "labs.axial@gmail.com"
   },
   "ads_config": {
     "show_ads": true,
