@@ -77,17 +77,17 @@
   "admob_publisher_id": "pub-4084542861235087",
   "power_ups": {
     "hint": {
-      "star_cost": 15,
+      "star_cost": 50,
       "ads_required": 1,
       "uses_per_reward": 2
     },
     "erase": {
-      "star_cost": 25,
+      "star_cost": 100,
       "ads_required": 1,
       "uses_per_reward": 1
     },
     "magic_wand": {
-      "star_cost": 40,
+      "star_cost": 200,
       "ads_required": 2,
       "uses_per_reward": 1
     }
