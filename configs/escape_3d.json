@@ -3,13 +3,13 @@
     "latest_version": "0.0.1",
     "min_required_version": "0.0.1",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.axiallabs.escape3d",
-    "store_url_ios": "https://apps.apple.com/us/app/escape-3d-tap-arrow-puzzle/id6796564749",
+    "store_url_ios": "https://apps.apple.com/us/app/doctordocs-pdf-editor-scanner/id6771757120",
     "update_message": "New levels and features available!"
   },
   "app_urls": {
     "privacy_policy": "https://www.axiallabs.tech/privacy-policy",
     "share_app_android": "https://play.google.com/store/apps/details?id=com.axiallabs.connect3d",
-    "share_app_ios": "https://apps.apple.com/us/app/escape-3d-tap-arrow-puzzle/id6796564749"
+    "share_app_ios": "https://apps.apple.com/us/app/doctordocs-pdf-editor-scanner/id6771757120"
   },
   "ads_config": {
     "show_ads": true,
@@ -51,6 +51,11 @@
         "show_interstitial": true,
         "show_rewarded": false
       },
+      "level_select": {
+        "enabled": true,
+        "show_interstitial": true,
+        "show_rewarded": false
+      },
       "hint": {
         "enabled": true,
         "show_interstitial": false,
@@ -70,6 +75,23 @@
     }
   },
   "admob_publisher_id": "pub-4084542861235087",
+  "power_ups": {
+    "hint": {
+      "star_cost": 15,
+      "ads_required": 1,
+      "uses_per_reward": 2
+    },
+    "erase": {
+      "star_cost": 25,
+      "ads_required": 1,
+      "uses_per_reward": 1
+    },
+    "magic_wand": {
+      "star_cost": 40,
+      "ads_required": 2,
+      "uses_per_reward": 1
+    }
+  },
   "iap_config": {
     "enabled": true,
     "show_iap_android": true,
