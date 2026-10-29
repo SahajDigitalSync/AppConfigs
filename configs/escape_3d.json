@@ -1,7 +1,7 @@
 {
   "update_config": {
     "latest_version": "0.0.1",
-    "min_required_version": "0.0.1",
+    "min_required_version": "1.1.3",
     "store_url_android": "https://play.google.com/store/apps/details?id=com.axiallabs.escape3d",
     "store_url_ios": "https://apps.apple.com/us/app/escape-3d-tap-arrow-puzzle/id6796564749",
     "update_message": "New levels and features available!"
