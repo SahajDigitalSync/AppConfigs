@@ -183,7 +183,7 @@
         }
       },
       "open_wallpaper_ad": {
-        "enabled": true,
+        "enabled": false,
         "normal": {
           "enabled": true,
           "show_interstitial": true,
