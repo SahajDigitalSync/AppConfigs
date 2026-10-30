@@ -219,7 +219,7 @@
             "sheet_title": "Premium Wallpaper",
             "sheet_subtitle": "Upgrade to Pro for unlimited access, or watch rewarded ads to unlock and set this wallpaper.",
             "allow_ads_unlock": true,
-            "ads_to_unlock": 1,
+            "ads_to_unlock": 2,
             "show_rewarded": true,
             "show_interstitial": false
           }
