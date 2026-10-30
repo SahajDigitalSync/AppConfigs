@@ -200,7 +200,7 @@
           "enabled": false,
           "daily_limit": 4,
           "sheet_title": "Daily Limit Reached",
-          "sheet_subtitle": "You have used your 5 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
+          "sheet_subtitle": "You have used your 4 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
           "allow_rewarded_unlock": true,
           "ads_to_unlock": 1,
           "show_rewarded": true,
@@ -213,7 +213,16 @@
           "enabled": true,
           "show_interstitial": false,
           "show_rewarded": true,
-          "frequency": 1
+          "frequency": 1,
+          "set_premium_wallpaper_ad": {
+            "enabled": true,
+            "sheet_title": "Premium Wallpaper",
+            "sheet_subtitle": "Upgrade to Pro for unlimited access, or watch rewarded ads to unlock and set this wallpaper.",
+            "allow_ads_unlock": true,
+            "ads_to_unlock": 1,
+            "show_rewarded": true,
+            "show_interstitial": false
+          }
         },
         "spatial_toggle": {
           "enabled": true,
