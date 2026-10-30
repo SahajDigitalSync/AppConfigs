@@ -236,5 +236,5 @@
       }
     }
   },
-  "show_spatial": false
+  "show_spatial": true
 }
