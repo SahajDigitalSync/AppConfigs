@@ -213,7 +213,7 @@
           "show_rewarded": true,
           "frequency": 1,
           "set_premium_wallpaper_ad": {
-            "enabled": true,
+            "enabled": false,
             "sheet_title": "Premium Wallpaper",
             "sheet_subtitle": "Upgrade to Pro for unlimited access, or watch rewarded ads to unlock and set this wallpaper.",
             "allow_ads_unlock": true,
