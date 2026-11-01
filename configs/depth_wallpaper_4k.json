@@ -182,6 +182,21 @@
           "interval": 2
         }
       },
+      "navigation_ad": {
+        "enabled": true,
+        "show_interstitial": true,
+        "show_rewarded": false,
+        "frequency": 2,
+        "bottom_nav": {
+          "enabled": true
+        },
+        "category_switch": {
+          "enabled": true
+        },
+        "view_all": {
+          "enabled": true
+        }
+      },
       "open_wallpaper_ad": {
         "enabled": true,
         "normal": {
