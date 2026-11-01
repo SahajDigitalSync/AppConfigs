@@ -236,6 +236,6 @@
       }
     }
   },
-  "show_spatial": false,
+  "show_spatial": true,
   "show_coupon_offer_banner": true
 }
