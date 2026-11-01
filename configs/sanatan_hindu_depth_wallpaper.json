@@ -252,5 +252,5 @@
     }
   },
   "show_spatial": false,
-  "show_coupon_offer_banner": true
+  "show_coupon_offer_banner": false
 }
