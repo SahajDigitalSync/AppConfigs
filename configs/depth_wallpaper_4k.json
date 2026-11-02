@@ -188,7 +188,7 @@
         "show_rewarded": false,
         "time_config": {
           "enabled": true,
-          "seconds": 10
+          "seconds": 20
         },
         "frequency_config": {
           "enabled": false,
