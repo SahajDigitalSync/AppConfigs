@@ -213,7 +213,7 @@
       "open_wallpaper_ad": {
         "enabled": true,
         "normal": {
-          "enabled": true,
+          "enabled": false,
           "show_interstitial": true,
           "show_rewarded": false,
           "frequency": 2
