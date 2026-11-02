@@ -184,6 +184,14 @@
         "enabled": true,
         "show_interstitial": true,
         "show_rewarded": false,
+        "time_config": {
+          "enabled": true,
+          "seconds": 10
+        },
+        "frequency_config": {
+          "enabled": false,
+          "frequency": 2
+        },
         "frequency": 3,
         "bottom_nav": {
           "enabled": true
