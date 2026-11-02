@@ -109,7 +109,7 @@
     }
   },
   "ads_config": {
-    "show_ads": true,
+    "show_ads": false,
     "show_ads_android": true,
     "network_config": {
       "active_network": "admob",
@@ -153,7 +153,7 @@
       "collection_screen": {
         "enabled": true,
         "banner": {
-          "enabled": true,
+          "enabled": false,
           "toggle_duration": 20
         },
         "native_ad": {
@@ -166,6 +166,13 @@
             "enabled": true,
             "interval": 2
           }
+        }
+      },
+      "wallpaper_apply_sheet": {
+        "enabled": true,
+        "banner": {
+          "enabled": true,
+          "toggle_duration": 10
         }
       },
       "explore_screen": {
@@ -188,7 +195,7 @@
         "show_rewarded": false,
         "time_config": {
           "enabled": true,
-          "seconds": 20
+          "seconds": 10
         },
         "frequency_config": {
           "enabled": false,
