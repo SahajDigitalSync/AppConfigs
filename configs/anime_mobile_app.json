@@ -168,6 +168,13 @@
           }
         }
       },
+      "wallpaper_apply_sheet": {
+        "enabled": true,
+        "banner": {
+          "enabled": true,
+          "toggle_duration": 10
+        }
+      },
       "explore_screen": {
         "enabled": true,
         "native_ad": {
@@ -188,7 +195,7 @@
         "show_rewarded": false,
         "time_config": {
           "enabled": true,
-          "seconds": 20
+          "seconds": 10
         },
         "frequency_config": {
           "enabled": false,
