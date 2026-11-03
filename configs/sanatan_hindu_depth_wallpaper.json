@@ -266,7 +266,9 @@
     }
   },
   "show_spatial": false,
-  "show_coupon_offer_banner": true,
-  "coupon_offer_banner_title": "Diwali Offer",
-  "coupon_offer_banner_body": "A special Diwali surprise awaits you!"
+  "coupon_offer_banner": {
+    "enabled": true,
+    "title": "Diwali Offer",
+    "body": "A special Diwali surprise awaits you!"
+  }
 }
