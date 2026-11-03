@@ -268,10 +268,10 @@
   "show_spatial": false,
   "show_coupon_offer_banner": true,
   "coupon_offer_banner_title": "Diwali Offer",
-  "coupon_offer_banner_body": "A special Diwali surprise awaits you!",
+  "coupon_offer_banner_body": "Celebrate this Diwali with exclusive 3D live wallpapers and a divine touch!",
   "coupon_offer_banner": {
     "enabled": true,
     "title": "Diwali Offer",
-    "body": "This Diwali, we're bringing something special to make your celebrations even brighter!"
+    "body": "Celebrate this Diwali with exclusive 3D live wallpapers and a divine touch!"
   }
 }
