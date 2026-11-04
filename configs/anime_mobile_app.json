@@ -195,13 +195,12 @@
         "show_rewarded": false,
         "time_config": {
           "enabled": true,
-          "seconds": 10
+          "seconds": 20
         },
         "frequency_config": {
           "enabled": false,
           "frequency": 2
         },
-        "frequency": 2,
         "bottom_nav": {
           "enabled": true
         },
