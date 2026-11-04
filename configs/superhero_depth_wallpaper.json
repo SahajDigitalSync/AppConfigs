@@ -199,7 +199,6 @@
           "enabled": false,
           "frequency": 2
         },
-        "frequency": 2,
         "bottom_nav": {
           "enabled": true
         },
