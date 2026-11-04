@@ -156,10 +156,29 @@
           "enabled": true,
           "toggle_duration": 20
         },
+        "native_ad": {
+          "enabled": true,
+          "interval": 1
+        },
         "collection_detail_screen": {
           "enabled": true,
-          "show_interstitial": true,
-          "show_rewarded": false,
+          "native_ad": {
+            "enabled": true,
+            "interval": 2
+          }
+        }
+      },
+      "explore_screen": {
+        "enabled": true,
+        "native_ad": {
+          "enabled": true,
+          "interval": 2
+        }
+      },
+      "favorites_screen": {
+        "enabled": true,
+        "native_ad": {
+          "enabled": true,
           "interval": 2
         }
       },
@@ -175,7 +194,7 @@
           "enabled": false,
           "frequency": 2
         },
-        "frequency": 3,
+        "frequency": 2,
         "bottom_nav": {
           "enabled": true
         },
@@ -199,6 +218,16 @@
           "show_interstitial": false,
           "show_rewarded": true,
           "frequency": 1
+        },
+        "free_tier_config": {
+          "enabled": true,
+          "daily_limit": 4,
+          "sheet_title": "Daily Limit Reached",
+          "sheet_subtitle": "You have used your 4 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
+          "allow_rewarded_unlock": true,
+          "ads_to_unlock": 2,
+          "show_rewarded": true,
+          "show_interstitial": false
         }
       },
       "preview_screen": {
@@ -214,19 +243,14 @@
           "show_interstitial": false,
           "show_rewarded": true,
           "frequency": 1,
-          "premium_wallpaper_dialog": {
+          "set_premium_wallpaper_ad": {
             "enabled": true,
             "sheet_title": "Premium Wallpaper",
             "sheet_subtitle": "Upgrade to Pro for unlimited access, or watch rewarded ads to unlock and set this wallpaper.",
-            "buy_premium": {
-              "enabled": true
-            },
-            "watch_ad": {
-              "enabled": true,
-              "ads_to_unlock": 2,
-              "show_rewarded": true,
-              "show_interstitial": false
-            }
+            "allow_ads_unlock": true,
+            "ads_to_unlock": 2,
+            "show_rewarded": true,
+            "show_interstitial": false
           }
         },
         "spatial_toggle": {
@@ -242,5 +266,6 @@
         "show_on_resume": true
       }
     }
-  }
+  },
+  "show_spatial": false
 }
