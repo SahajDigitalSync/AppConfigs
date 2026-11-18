@@ -131,11 +131,11 @@
       },
       "unity": {
         "android": {
-          "game_id": "6099387",
-          "test_mode": true,
-          "banner": "Banner_Android",
-          "interstitial": "Interstitial_Android",
-          "rewarded": "Rewarded_Android"
+          "game_id": "800443040",
+          "test_mode": false,
+          "banner": "BP_Banner_Android",
+          "interstitial": "IP_Interstitial_Android",
+          "rewarded": "RP_Rewarded_Android"
         }
       },
       "ironsource": {
