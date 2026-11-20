@@ -277,5 +277,14 @@
       }
     }
   },
-  "show_spatial": false
+  "show_spatial": false,
+  "offer_banner": {
+    "enabled": true,
+    "title": "Diwali Offer",
+    "body": "This Diwali Get Divine Darshan With Movable 3D God Wallpapers!",
+    "form_url": ""
+  },
+  "offer_preview_wallpaper": {
+    "wallpaper_name": "Spider Man Sunset Web"
+  }
 }
