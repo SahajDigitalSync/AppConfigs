@@ -279,7 +279,7 @@
   },
   "show_spatial": false,
   "offer_banner": {
-    "enabled": true,
+    "enabled": false,
     "title": "Free Gift ",
     "body": "Claim free Spatial Effect.",
     "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSctC436Xm-MjIzc-dbZPmmDNZ4aLX6nGeRjRqhu_H8LmybrIQ/viewform?usp=publish-editor"
