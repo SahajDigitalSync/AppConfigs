@@ -275,7 +275,7 @@
   "coupon_offer_banner_title": "Diwali Offer",
   "coupon_offer_banner_body": "This Diwali Get Divine Darshan With Movable 3D God Wallpapers!",
   "coupon_offer_banner": {
-    "enabled": false,
+    "enabled": true,
     "title": "Diwali Offer",
     "body": "This Diwali Get Divine Darshan With Movable 3D God Wallpapers!"
   }
