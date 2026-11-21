@@ -225,10 +225,10 @@
           "frequency": 1
         },
         "free_tier_config": {
-          "enabled": false,
-          "daily_limit": 1,
+          "enabled": true,
+          "daily_limit": 2,
           "sheet_title": "Daily Limit Reached",
-          "sheet_subtitle": "You have used your 1 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
+          "sheet_subtitle": "You have used your 2 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
           "allow_rewarded_unlock": true,
           "ads_to_unlock": 1,
           "show_rewarded": true,
