@@ -231,8 +231,8 @@
           "sheet_subtitle": "You have used your 2 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
           "allow_rewarded_unlock": true,
           "ads_to_unlock": 1,
-          "show_rewarded": true,
-          "show_interstitial": false
+          "show_rewarded": false,
+          "show_interstitial": true
         }
       },
       "preview_screen": {
