@@ -271,5 +271,6 @@
       }
     }
   },
-  "show_spatial": false
+  "show_spatial": false,
+  "show_custom_wallpaper": true
 }
