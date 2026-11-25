@@ -207,24 +207,32 @@
       "open_wallpaper_ad": {
         "enabled": true,
         "normal": {
-          "enabled": true,
+          "enabled": false,
           "show_interstitial": true,
           "show_rewarded": false,
-          "frequency": 1
+          "frequency": 2
         },
         "premium": {
-          "enabled": true,
+          "enabled": false,
           "show_interstitial": false,
           "show_rewarded": true,
           "frequency": 1
         },
+        "open_premium_wallpaper_dialog": {
+          "enabled": true,
+          "allow_ads_unlock": true,
+          "allow_buy_premium": true,
+          "ads_to_unlock": 1,
+          "show_rewarded": true,
+          "show_interstitial": false
+        },
         "free_tier_config": {
           "enabled": true,
-          "daily_limit": 4,
+          "daily_limit": 2,
           "sheet_title": "Daily Limit Reached",
-          "sheet_subtitle": "You have used your 4 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
+          "sheet_subtitle": "You have used your 2 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
           "allow_rewarded_unlock": true,
-          "ads_to_unlock": 2,
+          "ads_to_unlock": 1,
           "show_rewarded": true,
           "show_interstitial": false
         }
