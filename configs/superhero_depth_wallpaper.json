@@ -225,7 +225,7 @@
           "frequency": 1
         },
         "open_premium_wallpaper_dialog": {
-          "enabled": true,
+          "enabled": false,
           "allow_ads_unlock": true,
           "allow_buy_premium": true,
           "ads_to_unlock": 1,
