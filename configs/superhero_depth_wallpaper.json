@@ -219,7 +219,7 @@
           "frequency": 2
         },
         "premium": {
-          "enabled": true,
+          "enabled": false,
           "show_interstitial": false,
           "show_rewarded": true,
           "frequency": 1
