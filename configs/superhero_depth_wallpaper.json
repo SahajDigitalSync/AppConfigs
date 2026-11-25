@@ -112,10 +112,10 @@
     "show_ads": true,
     "show_ads_android": true,
     "network_config": {
-      "active_network": "admob",
+      "active_network": "cas",
       "enable_fallback": true,
       "fallback_order": [
-        "cas",
+        "admob",
         "unity"
       ]
     },
@@ -252,12 +252,12 @@
           "frequency": 1
         },
         "set_wallpaper_ad": {
-          "enabled": true,
+          "enabled": false,
           "show_interstitial": false,
           "show_rewarded": true,
           "frequency": 1,
           "premium_wallpaper_dialog": {
-            "enabled": true,
+            "enabled": false,
             "sheet_title": "Premium Wallpaper",
             "sheet_subtitle": "Upgrade to Pro for unlimited access, or watch rewarded ads to unlock and set this wallpaper.",
             "buy_premium": {
