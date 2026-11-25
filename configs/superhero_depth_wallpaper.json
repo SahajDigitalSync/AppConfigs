@@ -189,7 +189,7 @@
         }
       },
       "navigation_ad": {
-        "enabled": true,
+        "enabled": false,
         "show_interstitial": true,
         "show_rewarded": false,
         "time_config": {
