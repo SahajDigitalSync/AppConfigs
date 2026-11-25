@@ -112,7 +112,7 @@
     "show_ads": true,
     "show_ads_android": true,
     "network_config": {
-      "active_network": "admob",
+      "active_network": "cas",
       "enable_fallback": true,
       "fallback_order": [
         "admob",
