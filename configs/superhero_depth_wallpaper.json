@@ -252,12 +252,12 @@
           "frequency": 1
         },
         "set_wallpaper_ad": {
-          "enabled": false,
+          "enabled": true,
           "show_interstitial": false,
           "show_rewarded": true,
           "frequency": 1,
           "premium_wallpaper_dialog": {
-            "enabled": false,
+            "enabled": true,
             "sheet_title": "Premium Wallpaper",
             "sheet_subtitle": "Upgrade to Pro for unlimited access, or watch rewarded ads to unlock and set this wallpaper.",
             "buy_premium": {
