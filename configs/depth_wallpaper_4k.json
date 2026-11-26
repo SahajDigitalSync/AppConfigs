@@ -183,7 +183,7 @@
         }
       },
       "navigation_ad": {
-        "enabled": true,
+        "enabled": false,
         "show_interstitial": true,
         "show_rewarded": false,
         "time_config": {
@@ -211,12 +211,6 @@
           "show_interstitial": true,
           "show_rewarded": false,
           "frequency": 2
-        },
-        "premium": {
-          "enabled": false,
-          "show_interstitial": false,
-          "show_rewarded": true,
-          "frequency": 1
         },
         "open_premium_wallpaper_dialog": {
           "enabled": false,
