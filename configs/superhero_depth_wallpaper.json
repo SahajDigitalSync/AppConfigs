@@ -115,9 +115,7 @@
       "active_network": "cas",
       "enable_fallback": true,
       "fallback_order": [
-        "cas",
-        "admob",
-        "unity"
+        "cas"
       ]
     },
     "network_keys": {
