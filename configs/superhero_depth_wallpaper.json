@@ -293,7 +293,7 @@
       "enabled": true,
       "banner": {
         "title": "Premium Parallax Wallpapers",
-        "body": "Join the waitlist. They move as you tilt."
+        "body": "Join the waitlist for a free trial"
       },
       "preview": {
         "wallpaper_ids": [
@@ -309,8 +309,8 @@
   "show_custom_wallpaper": false,
   "offer_banner": {
     "enabled": true,
-    "title": "Free Gift ",
-    "body": "Claim free Spatial Effect.",
+    "title": "Premium Parallax Wallpapers",
+    "body": "Join the waitlist for a free trial",
     "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSctC436Xm-MjIzc-dbZPmmDNZ4aLX6nGeRjRqhu_H8LmybrIQ/viewform?usp=publish-editor"
   },
   "offer_preview_wallpaper": {
