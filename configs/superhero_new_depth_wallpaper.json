@@ -12,7 +12,7 @@
     "support_email": "savaniom27@gmail.com"
   },
   "subscription_config": {
-    "enabled": true,
+    "enabled": false,
     "show_subscriptions_android": true,
     "require_login_before_purchase": true,
     "plans": {
