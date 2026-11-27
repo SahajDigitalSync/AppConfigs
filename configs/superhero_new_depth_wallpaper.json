@@ -289,12 +289,33 @@
       }
     }
   },
+  "feature_config": {
+    "visibility": {
+      "show_spatial": false,
+      "show_custom_wallpaper": false
+    },
+    "offer": {
+      "enabled": false,
+      "banner": {
+        "title": "Premium Parallax Wallpapers",
+        "body": "Join the waitlist for a free trial"
+      },
+      "preview": {
+        "wallpaper_ids": [
+          "originals/pinterest_c7eb5ca8cd76182225970723994afaea.jpeg",
+          "originals/pinterest_3a8d570c9372652994cd825bea354503.jpeg",
+          "originals/pinterest_49930afbd006bb121ccbe81cfcd77b8d.jpeg"
+        ]
+      }
+    }
+  },
+  "_remove_after_migration": "TEMPORARY: the keys below (show_spatial, show_custom_wallpaper, offer_banner, offer_preview_wallpaper) are read only by app builds released before feature_config. Delete them, and this note, once nearly all users are on a build that reads feature_config.",
   "show_spatial": false,
   "show_custom_wallpaper": false,
   "offer_banner": {
     "enabled": false,
-    "title": "Free Gift ",
-    "body": "Claim free Spatial Effect.",
+    "title": "Premium Parallax Wallpapers",
+    "body": "Join the waitlist for a free trial",
     "form_url": ""
   },
   "offer_preview_wallpaper": {
