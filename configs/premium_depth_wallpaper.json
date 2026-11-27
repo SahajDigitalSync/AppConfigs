@@ -1,15 +1,293 @@
 {
   "update_config": {
-    "latest_version": "1.1.7",
-    "min_required_version": "1.1.7",
-    "store_url_android": "https://play.google.com/store/apps/details?id=com.yogi.premium.depth.wallpaper",
-    "update_message": "Exciting new depth wallpapers and styles available!"
+    "latest_version": "1.0.0",
+    "min_required_version": "1.0.0",
+    "store_url_android": "https://play.google.com/store/apps/details?id=com.yogi.superhero.wallpapers.hd.wallpaper4k.depth.effect.live.clock.lock.screen.wallpaper3d.parallax.uhd.ultra.wallpaper8k.home.spatial",
+    "update_message": "Exciting new 3D Superhero depth wallpapers and styles available!"
   },
   "app_urls": {
     "privacy_policy": "https://yogitech.online/privacy-policy",
     "terms_of_service": "https://yogitech.online/privacy-policy",
-    "share_app_android": "https://play.google.com/store/apps/details?id=com.yogi.premium.depth.wallpaper",
+    "share_app_android": "https://play.google.com/store/apps/details?id=com.yogi.superhero.wallpapers.hd.wallpaper4k.depth.effect.live.clock.lock.screen.wallpaper3d.parallax.uhd.ultra.wallpaper8k.home.spatial",
     "support_email": "yogipersonalisationapps@gmail.com"
+  },
+  "subscription_config": {
+    "enabled": true,
+    "show_subscriptions_android": true,
+    "require_login_before_purchase": true,
+    "plans": {
+      "lifetime": {
+        "android": {
+          "enabled": true,
+          "order": 1,
+          "is_default_selected": true,
+          "product_id": "superhero_lifetime",
+          "base_plan_id": "lifetime-base",
+          "title": "Lifetime Access",
+          "subtitle": "Pay once • Keep Pro forever",
+          "badge": "BEST VALUE",
+          "discount_percent": 85,
+          "original_price": "$99.99",
+          "fallback_price": "$14.99"
+        }
+      },
+      "yearly": {
+        "android": {
+          "enabled": true,
+          "order": 2,
+          "is_default_selected": false,
+          "product_id": "superhero_sub_yearly",
+          "base_plan_id": "yearly-base",
+          "title": "1 Year Access",
+          "subtitle": "Just $0.42 / month • Billed annually",
+          "badge": "POPULAR",
+          "discount_percent": 75,
+          "original_price": "$19.99",
+          "fallback_price": "$4.99"
+        }
+      },
+      "six_months": {
+        "android": {
+          "enabled": true,
+          "order": 3,
+          "is_default_selected": false,
+          "product_id": "superhero_sub_6months",
+          "base_plan_id": "6months-base",
+          "title": "6 Months Access",
+          "subtitle": "Just $0.67 / month • Billed every 6 months",
+          "badge": null,
+          "discount_percent": 60,
+          "original_price": "$11.99",
+          "fallback_price": "$3.99"
+        }
+      },
+      "three_months": {
+        "android": {
+          "enabled": true,
+          "order": 4,
+          "is_default_selected": false,
+          "product_id": "superhero_sub_3months",
+          "base_plan_id": "3months-base",
+          "title": "3 Months Access",
+          "subtitle": "Just $1.00 / month • Billed every 3 months",
+          "badge": null,
+          "discount_percent": 40,
+          "original_price": "$5.99",
+          "fallback_price": "$2.99"
+        }
+      },
+      "monthly": {
+        "android": {
+          "enabled": true,
+          "order": 5,
+          "is_default_selected": false,
+          "product_id": "superhero_sub_monthly",
+          "base_plan_id": "monthly-base",
+          "title": "1 Month Access",
+          "subtitle": "Billed monthly • Cancel anytime",
+          "badge": null,
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "$1.99"
+        }
+      },
+      "weekly": {
+        "android": {
+          "enabled": true,
+          "order": 6,
+          "is_default_selected": false,
+          "product_id": "superhero_sub_weekly",
+          "base_plan_id": "weekly-base",
+          "title": "1 Week Access",
+          "subtitle": "Billed weekly • Cancel anytime",
+          "badge": null,
+          "discount_percent": 0,
+          "original_price": null,
+          "fallback_price": "$0.99"
+        }
+      }
+    }
+  },
+  "ads_config": {
+    "show_ads": true,
+    "show_ads_android": true,
+    "network_config": {
+      "active_network": "cas",
+      "enable_fallback": true,
+      "fallback_order": [
+        "cas"
+      ]
+    },
+    "network_keys": {
+      "admob": {
+        "android": {
+          "app_id": "ca-app-pub-3940256099942544~3347511713",
+          "banner": "ca-app-pub-3940256099942544/6300978111",
+          "interstitial": "ca-app-pub-3940256099942544/1033173712",
+          "rewarded": "ca-app-pub-3940256099942544/5224354917",
+          "native": "ca-app-pub-3940256099942544/2247696110",
+          "app_open": "ca-app-pub-3940256099942544/9257395921"
+        }
+      },
+      "unity": {
+        "android": {
+          "game_id": "",
+          "test_mode": true,
+          "banner": "BP_Banner_Android",
+          "interstitial": "IP_Interstitial_Android",
+          "rewarded": "RP_Rewarded_Android"
+        }
+      },
+      "ironsource": {
+        "android": {
+          "app_key": "",
+          "banner": "DefaultBanner",
+          "interstitial": "DefaultInterstitial",
+          "rewarded": "DefaultRewardedVideo"
+        }
+      },
+      "cas": {
+        "android": {
+          "test_mode": true
+        }
+      }
+    },
+    "placements": {
+      "collection_screen": {
+        "enabled": true,
+        "banner": {
+          "enabled": false,
+          "toggle_duration": 20
+        },
+        "native_ad": {
+          "enabled": true,
+          "interval": 1
+        },
+        "collection_detail_screen": {
+          "enabled": true,
+          "native_ad": {
+            "enabled": true,
+            "interval": 2
+          }
+        }
+      },
+      "wallpaper_apply_sheet": {
+        "enabled": true,
+        "banner": {
+          "enabled": true,
+          "toggle_duration": 10
+        }
+      },
+      "explore_screen": {
+        "enabled": true,
+        "native_ad": {
+          "enabled": true,
+          "interval": 2
+        }
+      },
+      "favorites_screen": {
+        "enabled": true,
+        "native_ad": {
+          "enabled": true,
+          "interval": 2
+        }
+      },
+      "navigation_ad": {
+        "enabled": false,
+        "show_interstitial": true,
+        "show_rewarded": false,
+        "time_config": {
+          "enabled": true,
+          "seconds": 20
+        },
+        "frequency_config": {
+          "enabled": false,
+          "frequency": 2
+        },
+        "bottom_nav": {
+          "enabled": true
+        },
+        "category_switch": {
+          "enabled": true
+        },
+        "view_all": {
+          "enabled": true
+        }
+      },
+      "open_wallpaper_ad": {
+        "enabled": true,
+        "normal": {
+          "enabled": false,
+          "show_interstitial": true,
+          "show_rewarded": false,
+          "frequency": 2
+        },
+        "premium": {
+          "enabled": false,
+          "show_interstitial": false,
+          "show_rewarded": true,
+          "frequency": 1
+        },
+        "open_premium_wallpaper_dialog": {
+          "enabled": false,
+          "allow_ads_unlock": true,
+          "allow_buy_premium": true,
+          "ads_to_unlock": 1,
+          "show_rewarded": true,
+          "show_interstitial": false
+        },
+        "free_tier_config": {
+          "enabled": true,
+          "daily_limit": 2,
+          "sheet_title": "Daily Limit Reached",
+          "sheet_subtitle": "You have used your 2 free wallpapers for today. Upgrade to Pro for unlimited wallpapers or watch a quick ad to get 1 extra wallpaper.",
+          "allow_rewarded_unlock": true,
+          "ads_to_unlock": 1,
+          "show_rewarded": true,
+          "show_interstitial": false
+        }
+      },
+      "preview_screen": {
+        "enabled": true,
+        "open_editor_ad": {
+          "enabled": false,
+          "show_interstitial": true,
+          "show_rewarded": false,
+          "frequency": 1
+        },
+        "set_wallpaper_ad": {
+          "enabled": true,
+          "show_interstitial": false,
+          "show_rewarded": true,
+          "frequency": 1,
+          "premium_wallpaper_dialog": {
+            "enabled": true,
+            "sheet_title": "Premium Wallpaper",
+            "sheet_subtitle": "Upgrade to Pro for unlimited access, or watch rewarded ads to unlock and set this wallpaper.",
+            "buy_premium": {
+              "enabled": true
+            },
+            "watch_ad": {
+              "enabled": true,
+              "ads_to_unlock": 2,
+              "show_rewarded": true,
+              "show_interstitial": false
+            }
+          }
+        },
+        "spatial_toggle": {
+          "enabled": true,
+          "show_interstitial": false,
+          "show_rewarded": true,
+          "frequency": 1
+        }
+      },
+      "app_open_ad": {
+        "enabled": true,
+        "show_on_cold_start": false,
+        "show_on_resume": true
+      }
+    }
   },
   "feature_config": {
     "visibility": {
@@ -23,11 +301,28 @@
         "body": "Join the waitlist for a free trial"
       },
       "preview": {
-        "wallpaper_ids": []
+        "wallpaper_ids": [
+          "originals/pinterest_c7eb5ca8cd76182225970723994afaea.jpeg",
+          "originals/pinterest_3a8d570c9372652994cd825bea354503.jpeg",
+          "originals/pinterest_49930afbd006bb121ccbe81cfcd77b8d.jpeg"
+        ]
       }
     }
   },
-  "_remove_after_migration": "TEMPORARY: the keys below (show_spatial, show_custom_wallpaper) are read only by app builds released before feature_config. Delete them, and this note, once nearly all users are on a build that reads feature_config.",
+  "_remove_after_migration": "TEMPORARY: the keys below (show_spatial, show_custom_wallpaper, offer_banner, offer_preview_wallpaper) are read only by app builds released before feature_config. Delete them, and this note, once nearly all users are on a build that reads feature_config.",
   "show_spatial": false,
-  "show_custom_wallpaper": false
+  "show_custom_wallpaper": false,
+  "offer_banner": {
+    "enabled": false,
+    "title": "Premium Parallax Wallpapers",
+    "body": "Join the waitlist for a free trial",
+    "form_url": ""
+  },
+  "offer_preview_wallpaper": {
+    "wallpaper_ids": [
+      "originals/pinterest_c7eb5ca8cd76182225970723994afaea.jpeg",
+      "originals/pinterest_3a8d570c9372652994cd825bea354503.jpeg",
+      "originals/pinterest_49930afbd006bb121ccbe81cfcd77b8d.jpeg"
+    ]
+  }
 }
