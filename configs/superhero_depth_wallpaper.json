@@ -5,6 +5,17 @@
     "store_url_android": "https://play.google.com/store/apps/details?id=com.yogi.superhero.depth.wallpaper",
     "update_message": "Exciting new 3D Superhero depth wallpapers and styles available!"
   },
+  "maintenance_config": {
+    "enabled": false,
+    "blocking": false,
+    "min_app_version": "",
+    "max_app_version": "",
+    "title": "We're improving things for you",
+    "message": "Some features, like unlocking wallpapers with ads, may not work properly right now. Our team is already on it and a fix is coming very soon. Thank you for your patience, and sorry for the trouble!",
+    "button_text": "Got it",
+    "show_contact_support": true,
+    "show_once_per_session": true
+  },
   "app_urls": {
     "privacy_policy": "https://yogitech.online/privacy-policy",
     "terms_of_service": "https://yogitech.online/privacy-policy",
@@ -111,6 +122,7 @@
   "ads_config": {
     "show_ads": true,
     "show_ads_android": true,
+    "grant_reward_on_ad_unavailable": true,
     "network_config": {
       "active_network": "cas",
       "enable_fallback": true,
