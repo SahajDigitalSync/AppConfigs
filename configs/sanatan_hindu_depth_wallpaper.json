@@ -278,6 +278,23 @@
       }
     }
   },
+  "feature_config": {
+    "visibility": {
+      "show_spatial": false,
+      "show_custom_wallpaper": false
+    },
+    "offer": {
+      "enabled": true,
+      "banner": {
+        "title": "Free Gift",
+        "body": "Claim Free 3D Spatial Effect"
+      },
+      "preview": {
+        "wallpaper_name": "Bajrang Bali"
+      }
+    }
+  },
+  "_remove_after_migration": "TEMPORARY: the keys below (show_spatial, show_custom_wallpaper, show_coupon_offer_banner, coupon_offer_banner_title, coupon_offer_banner_body, coupon_offer_banner) are read only by app builds released before feature_config. Delete them, and this note, once nearly all users are on a build that reads feature_config.",
   "show_spatial": false,
   "show_custom_wallpaper": false,
   "show_coupon_offer_banner": false,
