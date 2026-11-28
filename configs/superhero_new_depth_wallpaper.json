@@ -5,6 +5,11 @@
     "store_url_android": "https://play.google.com/store/apps/details?id=com.yogi.superhero.wallpapers.hd.wallpaper4k.depth.effect.live.clock.lock.screen.wallpaper3d.parallax.spatial.wallpaper8k",
     "update_message": "Exciting new 3D Superhero depth wallpapers and styles available!"
   },
+  "maintenance_config": {
+    "enabled": false,
+    "title": "We're improving things for you",
+    "message": "Some features, like unlocking wallpapers with ads, may not work properly right now. Our team is already working on it and a fix is coming very soon. Thank you for your patience, and sorry for the trouble!"
+  },
   "app_urls": {
     "privacy_policy": "https://www.devverse.tech/privacy-policy",
     "terms_of_service": "https://www.devverse.tech/terms",
